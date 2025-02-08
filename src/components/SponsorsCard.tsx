@@ -6,7 +6,6 @@ import styles from "./SponsorsCard.module.css";
 export default function SponsorsCard() {
   return (
     <div className={styles.sponsorCard}>
-      {/* <h3 className={styles.sponsorTitle}>Sponsoring Partners</h3> */}
       <div className={styles.sponsorGrid}>
         <div className={styles.sponsorItem}>
           <Image
@@ -15,6 +14,8 @@ export default function SponsorsCard() {
             width={200}
             height={100}
             className={styles.sponsorImage}
+            priority
+            loading="eager"
           />
         </div>
         <div className={styles.sponsorItem}>
@@ -24,6 +25,8 @@ export default function SponsorsCard() {
             width={200}
             height={100}
             className={styles.sponsorImage}
+            priority
+            loading="eager"
           />
         </div>
         <div className={styles.sponsorItem}>
@@ -33,6 +36,8 @@ export default function SponsorsCard() {
             width={200}
             height={100}
             className={styles.sponsorImage}
+            priority
+            loading="eager"
           />
         </div>
         <div className={styles.sponsorItem}>
@@ -42,6 +47,8 @@ export default function SponsorsCard() {
             width={200}
             height={100}
             className={styles.sponsorImage}
+            priority
+            loading="eager"
           />
         </div>
       </div>

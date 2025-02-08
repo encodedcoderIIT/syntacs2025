@@ -7,16 +7,36 @@ import styles from "./Carousel.module.css";
 export default function Carousel() {
   const slides = [
     {
-      src: "/assets/dept.jpg",
-      alt: "Department",
+      src: "/assets/carousels/carousel-1.png",
+      alt: "Carousel Image 1",
     },
     {
-      src: "/assets/bg.jpeg",
-      alt: "Background",
+      src: "/assets/carousels/carousel-2.png",
+      alt: "Carousel Image 2",
+    },
+    {
+      src: "/assets/carousels/carousel-3.png",
+      alt: "Carousel Image 3",
+    },
+    {
+      src: "/assets/carousels/carousel-4.png",
+      alt: "Carousel Image 4",
+    },
+    {
+      src: "/assets/carousels/carousel-5.png",
+      alt: "Carousel Image 5",
+    },
+    {
+      src: "/assets/carousels/carousel-6.png",
+      alt: "Carousel Image 6",
     },
     // {
-    //   src: "/assets/carousel3.png",
-    //   alt: "pyramids",
+    //   src: "/assets/carousels/carousel-7.png",
+    //   alt: "Carousel Image 7",
+    // },
+    // {
+    //   src: "/assets/carousels/carousel-8.png",
+    //   alt: "Carousel Image 8",
     // },
   ];
 
