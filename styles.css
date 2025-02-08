@@ -1,3 +1,15 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+header,
+footer {
+  background-color: #0156d1;
+}
+
 .banner {
   width: 720px;
 }
@@ -13,13 +25,16 @@
 }
 
 .footer {
+  padding-top: 1rem;
   /* position: fixed; */
   left: 0;
   bottom: 0;
   width: 100%;
-  /* background-color: red; */
+  /* background-color: rgb(93, 84, 228); */
   /* color: white; */
   text-align: center;
+  margin-bottom: 0;
+  /* padding-bottom: 0.5rem; */
 }
 h5.card-title {
   color: #0156d1;
@@ -54,6 +69,7 @@ h5.card-title {
 }
 
 .img-container {
+  /* margin: 20px; */
   position: relative;
   text-align: left;
   color: #ffffff;
@@ -76,4 +92,23 @@ h5.card-title {
 
 .text-drop-shadow {
   text-shadow: 2px 2px 4px #000000;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #0156d1;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-item:hover::after {
+  width: 100%;
 }
