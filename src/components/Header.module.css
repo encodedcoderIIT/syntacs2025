@@ -1,6 +1,6 @@
 .header {
   background-color: #fff;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.514);
   padding: 1rem 2rem;
   position: fixed;
   top: 0;
@@ -9,12 +9,15 @@
   z-index: 1000;
   height: var(--header-height);
   background: linear-gradient(135deg, rgba(158, 249, 228), rgba(98, 80, 162));
+  /* border-bottom: 1px solid #010101; */
 }
 
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 70%;
+  margin: auto;
 }
 
 .brand {
@@ -28,30 +31,21 @@
   background: transparent;
   cursor: pointer;
   display: none; /* Hidden on larger screens */
+  font-size: 1.5rem;
+  background: linear-gradient(135deg, rgba(158, 249, 228), rgba(98, 80, 162));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: opacity 0.3s ease-in-out;
 }
 
-/* Hamburger icon */
+.menuButton:hover {
+  opacity: 0.8;
+}
+
+/* Remove these lines since we're not using them */
 .menuIcon {
-  width: 25px;
-  height: 3px;
-  background-color: #333;
-  display: block;
-  position: relative;
-}
-.menuIcon::before,
-.menuIcon::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 25px;
-  height: 3px;
-  background-color: #333;
-}
-.menuIcon::before {
-  top: -8px;
-}
-.menuIcon::after {
-  top: 8px;
+  display: none;
 }
 
 .navbarMenu {
@@ -99,9 +93,12 @@
 }
 
 /* Mobile styles */
-@media (max-width: 768px) {
+@media (max-width: 1010px) {
   .menuButton {
     display: block;
+  }
+  .navbar {
+    width: 100%;
   }
   .navbarMenu {
     display: none;

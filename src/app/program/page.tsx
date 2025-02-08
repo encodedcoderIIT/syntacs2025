@@ -108,22 +108,37 @@ export default function Program() {
               Talk by Dr. Debabrata Nayak
             </h4>
             <hr className={styles.divider} />
-            <p className={styles.text}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
-              doloribus quisquam ducimus saepe architecto voluptatem quia
-              quibusdam vitae officia eveniet amet harum repudiandae expedita,
-              dignissimos ex vero iusto aspernatur aliquid?
+            <p className={`${styles.text} justifyText`}>
+              Dr. Debabrata Nayak is a seasoned management professional with
+              over 18 years of experience in senior leadership roles,
+              specializing in Strategic IT Solutions, Service Delivery, Wireless
+              & Network Communications, and Security. Renowned for formulating
+              robust IT strategies, driving business continuity, and setting
+              security roadmaps, alongside presenting 62 research papers at
+              international forums like IEEE, he is skilled in managing
+              cross-functional teams, executing critical research projects, and
+              harmonizing technical needs with business objectives through
+              effective project planning and execution. Known for blending
+              technical expertise with strategic vision to deliver business
+              excellence and innovation.
             </p>
             <hr className={styles.divider} />
             <h4 id="keynote2" className={styles.subTitle}>
-              Prof. Yogesh Simmhan
+              Talk by Prof. Yogesh Simmhan
             </h4>
             <hr className={styles.divider} />
-            <p className={styles.text}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatum expedita quaerat inventore rerum sit dicta tenetur,
-              modi cupiditate, maxime mollitia, optio in numquam esse vel
-              voluptate voluptatibus perferendis amet obcaecati.
+            <p className={`${styles.text} justifyText`}>
+              Yogesh Simmhan, an Associate Professor in the Department of
+              Computational and Data Sciences at IISc Bangalore and a Swarna
+              Jayanti Fellow, specializes in scalable software platforms and
+              algorithms for Distributed Systems, including Cloud and Edge
+              Computing, Temporal Graph Processing, and Scalable Machine
+              Learning for Big Data and IoT. With over 100 peer-reviewed
+              publications and numerous accolades like the IEEE TCSC Award for
+              Excellence in Scalable Computing (2020) and multiple Best Paper
+              Awards, he is a prominent figure in his field. A Distinguished
+              Member of ACM and IEEE, he also serves on editorial boards of
+              leading journals and the ACM India Executive Council.
             </p>
           </section>
           <hr className={styles.divider} />

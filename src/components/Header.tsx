@@ -1,15 +1,54 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import styles from "./Header.module.css";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const menuRef = useRef<HTMLDivElement>(null);
+  const buttonRef = useRef<HTMLButtonElement>(null);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        menuRef.current &&
+        !menuRef.current.contains(event.target as Node) &&
+        !buttonRef.current?.contains(event.target as Node)
+      ) {
+        setMenuOpen(false);
+      }
+    };
+
+    const handleLinkClick = () => {
+      setMenuOpen(false);
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    // Add click handlers to all nav links
+    const navLinks = menuRef.current?.getElementsByTagName("a");
+    if (navLinks) {
+      Array.from(navLinks).forEach((link) => {
+        link.addEventListener("click", handleLinkClick);
+      });
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+      if (navLinks) {
+        Array.from(navLinks).forEach((link) => {
+          link.removeEventListener("click", handleLinkClick);
+        });
+      }
+    };
+  }, []);
 
   return (
     <header className={styles.header}>
@@ -18,6 +57,7 @@ export default function Header() {
           SYNTACS 2025
         </Link>
         <button
+          ref={buttonRef}
           className={styles.menuButton}
           type="button"
           onClick={toggleMenu}
@@ -25,9 +65,10 @@ export default function Header() {
           aria-expanded={menuOpen}
           aria-label="Toggle navigation"
         >
-          <span className={styles.menuIcon}></span>
+          <FontAwesomeIcon icon={faBars} />
         </button>
         <div
+          ref={menuRef}
           id="navbarNav"
           className={`${styles.navbarMenu} ${menuOpen ? styles.open : ""}`}
         >

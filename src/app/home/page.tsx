@@ -22,7 +22,7 @@ export default function Home() {
             <div id="about" className={styles.aboutSection}>
               <h1 className={styles.title}>Welcome to SYNTACS 2025</h1>
               <hr className={styles.divider} />
-              <p className={styles.text}>
+              <p className={`${styles.text} justifyText`}>
                 A <b>SY</b>mposium on <b>N</b>ovel <b>T</b>echnologies and{" "}
                 <b>A</b>dvances in <b>CS</b> is a gathering of scholars,
                 researchers, and experts in a particular field to share and
@@ -33,7 +33,7 @@ export default function Home() {
                 intellectual exchange, foster collaboration, and push the
                 boundaries of knowledge within the chosen domain.
               </p>
-              <p className={styles.text}>
+              <p className={`${styles.text} justifyText`}>
                 Organized by CSE IIT Ropar, SYNTACS will feature insightful
                 talks by two prominent speakers, providing attendees with
                 valuable insights into cutting-edge research and industry
@@ -77,8 +77,9 @@ export default function Home() {
                   href="https://in.linkedin.com/in/dr-debabrata-nayak-a3828126"
                   target="_blank"
                   rel="noreferrer"
+                  className="hrefLinkBlue"
                 >
-                  LinkedIn Profile
+                  LinkedIn Profile 🌐
                 </a>
               </div>
             </div>
@@ -97,8 +98,9 @@ export default function Home() {
                   href="https://cds.iisc.ac.in/faculty/simmhan/"
                   target="_blank"
                   rel="noreferrer"
+                  className="hrefLinkBlue"
                 >
-                  Profile
+                  Profile 🌐
                 </a>
               </div>
             </div>

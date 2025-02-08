@@ -19,35 +19,44 @@ export default function Registration() {
         <div className={styles.cardBody}>
           <h1 className={styles.title}>Registration 💻</h1>
           <hr className={styles.divider} />
-          <p className={styles.text}>
-            All participants must mandatorily register for the symposium using
-            the form below by <b>TBA</b>:
-          </p>
-          <p className={styles.text}>
-            <a
-              href="https://syntacs2025.site/registration.htm"
-              target="_blank"
-              rel="noreferrer"
-            >
-              https://syntacs2025.site/registration.htm
-            </a>
-          </p>
-          <div className={styles.imageContainer}>
-            <Image
-              width={200}
-              height={200}
-              src="/assets/registration-qr.png"
-              alt="Registration QR Code"
-              className={styles.qrImage}
-            />
+          <div className={styles.cardsContainer}>
+            <div className={`${styles.card}`} id="register-request">
+              <p className={styles.text}>
+                All participants must mandatorily register for the symposium
+                using the form below by <b>TBA</b>:
+              </p>
+              <p className={styles.text}>
+                <a
+                  href="/form-link"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="hrefLinkBlue"
+                >
+                  syntacs2025.site/form-link
+                </a>
+              </p>
+            </div>
+            <div className={`${styles.card} ${styles.qrCodeCard}`}>
+              <div className={styles.imageContainer}>
+                <Image
+                  width={200}
+                  height={200}
+                  src="/assets/registration-qr.png"
+                  alt="Registration QR Code"
+                  className={styles.qrImage}
+                />
+              </div>
+            </div>
           </div>
-          <h2 className={styles.subTitle}>Contact</h2>
+          <h2 className={styles.subTitle}>Contact 📩</h2>
           <p className={styles.text}>
             In case of any issues, kindly contact us at{" "}
-            <a href="mailto:cse.events@iitrpr.ac.in">cse.events@iitrpr.ac.in</a>
+            <a href="mailto:cse.events@iitrpr.ac.in" className="hrefLinkBlue">
+              cse.events@iitrpr.ac.in
+            </a>
             <br />
             Alternatively, you can reach us at{" "}
-            <a href="mailto:office-cse-1@iitrpr.ac.in">
+            <a href="mailto:office-cse-1@iitrpr.ac.in" className="hrefLinkBlue">
               office-cse-1@iitrpr.ac.in
             </a>
           </p>

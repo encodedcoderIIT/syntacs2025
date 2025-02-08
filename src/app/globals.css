@@ -44,3 +44,13 @@ body {
     /* padding: 0 1rem; */
   }
 }
+
+.justifyText {
+  text-align: justify;
+}
+
+.hrefLinkBlue {
+  color: #1a73e8;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}

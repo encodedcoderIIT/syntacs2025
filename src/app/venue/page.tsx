@@ -18,7 +18,7 @@ export default function Venue() {
         <div className={styles.cardBody}>
           <h1 className={styles.title}>About IIT Ropar 🗺️</h1>
           <hr className={styles.divider} />
-          <p className={styles.text}>
+          <p className={`${styles.text} justifyText`}>
             IIT Ropar is located in the district of Rupnagar, the city formerly
             known as Ropar, which possesses great historical importance. The
             excavations carried out at Rupnagar have proved that this town was a
@@ -49,7 +49,7 @@ export default function Venue() {
             </div>
 
             <div className={styles.directionsContainer}>
-              <ul className={styles.directionsList}>
+              <ul className={`${styles.directionsList} justifyText`}>
                 <li>
                   <b>From Chandigarh Railway Station 🚉:</b> You can get a
                   pre-paid taxi 🚕 which will cost around ₹1500. Also, you can
