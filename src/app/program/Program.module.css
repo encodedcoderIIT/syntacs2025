@@ -1,0 +1,132 @@
+.programContainer {
+  width: 100%;
+  /* max-width: 900px; */
+  /* margin: 2rem auto; */
+  /* padding: 0 1rem; */
+}
+
+.cardBody {
+  background-color: #fff;
+  padding: 1.5rem;
+  /* border-radius: 8px; */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.title {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.divider {
+  border: none;
+  height: 2px;
+  background: #eee;
+  margin: 1rem 0;
+}
+
+.schedule {
+  width: 100%;
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+.programTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.programTable th,
+.programTable td {
+  padding: 0.75rem 1rem;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  color: #333; /* Darker text color */
+}
+
+.programTable thead {
+  background-color: #f9f9f9;
+}
+
+.programTable tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.details {
+  margin: 2rem 0;
+}
+
+.subTitle {
+  font-size: 1.75rem;
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+
+.text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #666;
+  margin: 0.5rem 0;
+}
+
+.alumniGrid {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.alumniCard {
+  background-color: #fff;
+  flex: 1 1 calc(50% - 1rem);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.alumniImg {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.alumniBody {
+  flex: 1;
+}
+
+.alumniTitle {
+  font-size: 1.25rem;
+  color: #333;
+  margin: 0;
+}
+
+.alumniText {
+  font-size: 0.875rem;
+  color: #555;
+  margin: 0.25rem 0 0;
+}
+
+.textMuted {
+  color: #888;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+  .subTitle {
+    font-size: 1.5rem;
+  }
+  .programTable th,
+  .programTable td {
+    padding: 0.5rem;
+  }
+  .alumniCard {
+    flex: 1 1 100%;
+  }
+}

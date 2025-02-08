@@ -1,0 +1,14 @@
+.footer {
+  background-color: #fff;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem;
+  text-align: center;
+  /* margin-top: 2rem; */
+  background: linear-gradient(135deg, rgba(158, 249, 228), rgba(98, 80, 162));
+}
+
+.text {
+  color: #333;
+  margin: 0;
+  font-size: 1rem;
+}

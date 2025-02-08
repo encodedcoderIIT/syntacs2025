@@ -1,0 +1,127 @@
+.header {
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  height: var(--header-height);
+  background: linear-gradient(135deg, rgba(158, 249, 228), rgba(98, 80, 162));
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.menuButton {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  display: none; /* Hidden on larger screens */
+}
+
+/* Hamburger icon */
+.menuIcon {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  display: block;
+  position: relative;
+}
+.menuIcon::before,
+.menuIcon::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+}
+.menuIcon::before {
+  top: -8px;
+}
+.menuIcon::after {
+  top: 8px;
+}
+
+.navbarMenu {
+  display: flex;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navLink {
+  color: #333;
+  text-decoration: none;
+  margin: 0 1rem;
+  transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+  position: relative;
+}
+
+.navLink::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 50%;
+  background: #ffffff;
+  transition: width 0.3s ease-in-out, right 0.3s ease-in-out;
+}
+
+.navLink:hover::after {
+  width: 100%;
+  right: 0;
+}
+
+.navLink:hover {
+  color: #ffffff;
+}
+
+.navLink:hover {
+  color: #ffffff;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .menuButton {
+    display: block;
+  }
+  .navbarMenu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .navbarMenu.open {
+    display: flex;
+  }
+  .navList {
+    flex-direction: column;
+    padding: 1rem 0;
+  }
+  .navList li {
+    margin: 0.5rem 0;
+    text-align: center;
+  }
+}
