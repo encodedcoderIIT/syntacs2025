@@ -31,8 +31,8 @@ export default function SponsorsCard() {
         </div>
         <div className={styles.sponsorItem}>
           <Image
-            src="/assets/sponsors/itjrc.png"
-            alt="ITJRC"
+            src="/assets/sponsors/cards.png"
+            alt="iHub Awadh"
             width={200}
             height={100}
             className={styles.sponsorImage}
@@ -42,8 +42,8 @@ export default function SponsorsCard() {
         </div>
         <div className={styles.sponsorItem}>
           <Image
-            src="/assets/sponsors/cards.png"
-            alt="CARDS"
+            src="/assets/sponsors/itjrc.png"
+            alt="iHub Awadh"
             width={200}
             height={100}
             className={styles.sponsorImage}
