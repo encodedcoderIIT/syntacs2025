@@ -42,7 +42,7 @@ export default function SponsorsCard() {
         </div>
         <div className={styles.sponsorItem}>
           <Image
-            src="/assets/sponsors/itjrc.png"
+            src="/assets/sponsors/itjrc.jpg"
             alt="ITJRC"
             width={200}
             height={100}
