@@ -112,6 +112,7 @@ export default function Home() {
               </div>
             </div>
           </div>
+
           <div className={styles.cardsContainer}>
             <div className={styles.infoCard}>
               <h2 className={styles.subTitle}>Schedule ⌛</h2>
@@ -156,6 +157,49 @@ export default function Home() {
                     </a>
                   </li>
                 </ul>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h2 className={styles.subTitle}>Glimpses of 2024 📸</h2>
+            <div className={styles.glimpsesContainer}>
+              <div className={styles.glimpseCard}>
+                <Image
+                  src="/assets/glimpses/2024_1.jpg"
+                  alt="Glimpse 1"
+                  width={300}
+                  height={200}
+                  className={styles.glimpseImage}
+                />
+              </div>
+              <div className={styles.glimpseCard}>
+                <Image
+                  src="/assets/glimpses/2024_2.jpg"
+                  alt="Glimpse 1"
+                  width={300}
+                  height={200}
+                  className={styles.glimpseImage}
+                />
+              </div>
+              <div className={styles.glimpseCard}>
+                <Image
+                  src="/assets/glimpses/2024_3.jpg"
+                  alt="Glimpse 2"
+                  width={300}
+                  height={200}
+                  className={styles.glimpseImage}
+                />
+              </div>
+              <div className={styles.glimpseCard}>
+                <Image
+                  src="/assets/glimpses/2024_4.jpg"
+                  alt="Glimpse 3"
+                  width={300}
+                  height={200}
+                  className={styles.glimpseImage}
+                />
+                {/* <p className={styles.glimpseText}>Networking session</p> */}
               </div>
             </div>
           </div>

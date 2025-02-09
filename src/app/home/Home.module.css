@@ -33,6 +33,7 @@
   text-align: left;
   color: #333;
   margin: 1.5rem 0 0.5rem;
+  font-weight: 600;
 }
 
 .divider {
@@ -158,6 +159,49 @@
   color: #0057a3;
 }
 
+.glimpsesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.glimpseCard {
+  width: 300px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.glimpseCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.glimpseImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+  transition: transform 0.3s ease;
+}
+
+.glimpseCard:hover .glimpseImage {
+  transform: scale(1.05);
+}
+
+.glimpseText {
+  padding: 1rem;
+  margin: 0;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #2d3436;
+  font-weight: 500;
+}
+
 @media (max-width: 768px) {
   .title {
     font-size: 1.5rem;
@@ -179,6 +223,14 @@
   }
   .cardsContainer {
     gap: 1rem;
+  }
+  .glimpsesContainer {
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+  .glimpseCard {
+    width: 100%;
+    max-width: 350px;
   }
 }
 

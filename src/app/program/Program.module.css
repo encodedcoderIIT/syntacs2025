@@ -17,6 +17,7 @@
   text-align: center;
   color: #333;
   margin-bottom: 1rem;
+  font-weight: 600;
 }
 
 .divider {
@@ -43,6 +44,7 @@
   text-align: center;
   border-bottom: 1px solid #eee;
   color: #333; /* Darker text color */
+  text-align: left;
 }
 
 .programTable thead {
