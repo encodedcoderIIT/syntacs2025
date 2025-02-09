@@ -3,8 +3,9 @@
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import styles from "./Header.module.css";
+import Image from "next/image";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -54,7 +55,17 @@ export default function Header() {
     <header className={styles.header}>
       <nav className={styles.navbar}>
         <Link href="/" className={`${styles.brand} ${styles.navLink}`}>
-          SYNTACS 2025
+          <div className={styles.logoContainer}>
+            <Image
+              src="/favicon.png"
+              alt="SYNTACS 2025 Logo"
+              className={styles.logo}
+              width={32}
+              height={32}
+              style={{ display: "inline" }}
+            />
+            <span>SYNTACS 2025</span>
+          </div>
         </Link>
         <button
           ref={buttonRef}
@@ -65,7 +76,7 @@ export default function Header() {
           aria-expanded={menuOpen}
           aria-label="Toggle navigation"
         >
-          <FontAwesomeIcon icon={faBars} />
+          <FontAwesomeIcon icon={menuOpen ? faTimes : faBars} />
         </button>
         <div
           ref={menuRef}

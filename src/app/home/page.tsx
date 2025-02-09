@@ -23,15 +23,15 @@ export default function Home() {
               <h1 className={styles.title}>Welcome to SYNTACS 2025</h1>
               <hr className={styles.divider} />
               <p className={`${styles.text} justifyText`}>
-                A <b>SY</b>mposium on <b>N</b>ovel <b>T</b>echnologies and{" "}
-                <b>A</b>dvances in <b>CS</b> is a gathering of scholars,
-                researchers, and experts in a particular field to share and
-                discuss the latest advancements, findings, and innovations in
-                their respective areas of study. The [Year] Research Symposium,
-                themed &quot;Exploring Frontiers in [Research Field],&quot;
-                brought together a diverse group of professionals to engage in
-                intellectual exchange, foster collaboration, and push the
-                boundaries of knowledge within the chosen domain.
+                IIT Ropar&apos;s Computer Science and Engineering department
+                proudly introduces SYNTACS, <b>SY</b>mposium on <b>N</b>ovel{" "}
+                <b>T</b>
+                echnologies and <b>A</b>dvances in <b>C</b>omputer <b>S</b>
+                cience, a Research Scholars Day aimed at fostering collaboration
+                and knowledge exchange within the academic community. This event
+                serves as a platform to bring together research scholars from
+                diverse backgrounds, creating an environment conducive to
+                networking and collaboration.
               </p>
               <p className={`${styles.text} justifyText`}>
                 Organized by CSE IIT Ropar, SYNTACS will feature insightful

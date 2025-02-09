@@ -30,7 +30,10 @@ a:hover {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter), system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 .contentContainer {
@@ -53,4 +56,10 @@ body {
   color: #1a73e8;
   text-decoration: none;
   transition: color 0.2s ease;
+  text-decoration: underline;
+}
+
+.hrefLinkBlue:hover {
+  color: #1557b0;
+  text-decoration: underline;
 }
