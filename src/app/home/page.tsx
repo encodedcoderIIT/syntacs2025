@@ -21,6 +21,7 @@ export default function Home() {
           <div className={styles.topSection}>
             <div id="about" className={styles.aboutSection}>
               <h1 className={styles.title}>Welcome to SYNTACS 2025</h1>
+              <hr className={styles.divider} />
               <Image
                 src="/assets/banner.jpg"
                 alt="SYNTACS 2025 Banner"
@@ -28,7 +29,6 @@ export default function Home() {
                 height={400}
                 className={styles.bannerImage}
               />
-              <hr className={styles.divider} />
               <p className={`${styles.text} justifyText`}>
                 IIT Ropar&apos;s Computer Science and Engineering department
                 proudly introduces SYNTACS, <b>SY</b>mposium on <b>N</b>ovel{" "}
@@ -86,8 +86,9 @@ export default function Home() {
                   rel="noreferrer"
                   className="hrefLinkBlue"
                 >
-                  LinkedIn Profile 🌐
-                </a>
+                  LinkedIn Profile
+                </a>{" "}
+                🌐
               </div>
             </div>
             <div className={styles.keynoteCard}>
@@ -107,8 +108,9 @@ export default function Home() {
                   rel="noreferrer"
                   className="hrefLinkBlue"
                 >
-                  Profile 🌐
+                  Profile
                 </a>
+                🌐
               </div>
             </div>
           </div>

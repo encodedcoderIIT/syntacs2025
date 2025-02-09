@@ -54,17 +54,17 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <nav className={styles.navbar}>
-        <Link href="/" className={`${styles.brand} ${styles.navLink}`}>
+        <Link href="/" className={`${styles.brand}`}>
           <div className={styles.logoContainer}>
             <Image
-              src="/favicon.png"
+              src="/assets/syntacs-brand.png"
               alt="SYNTACS 2025 Logo"
               className={styles.logo}
-              width={32}
-              height={32}
-              style={{ display: "inline" }}
+              width={60}
+              height={50}
+              style={{ display: "inline", width: "auto" }}
             />
-            <span>SYNTACS 2025</span>
+            {/* <span>SYNTACS 2025</span> */}
           </div>
         </Link>
         <button

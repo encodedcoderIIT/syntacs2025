@@ -30,8 +30,22 @@
 } */
 
 .logo {
-  display: inline;
   margin-right: 0.5rem;
+  height: 40px;
+  transition: transform 0.3s ease-in-out; /* Add transition here */
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.logo::after {
+  transform: scale(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover::after {
+  transform: scale(1);
 }
 
 .brand {
