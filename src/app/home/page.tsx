@@ -20,7 +20,7 @@ export default function Home() {
         <div className={styles.cardBody}>
           <div className={styles.topSection}>
             <div id="about" className={styles.aboutSection}>
-              <h1 className={styles.title}>Welcome to SYNTACS 2025</h1>
+              <h1 className={styles.title}>Welcome to SYNTACS &apos;25</h1>
               <hr className={styles.divider} />
               <Image
                 src="/assets/banner.jpg"
@@ -60,7 +60,11 @@ export default function Home() {
               </p>
             </div>
             <div id="sponsors" className={styles.sponsorsSection}>
-              <h2 id="sponsors-section-inner" className={styles.subTitle}>
+              <h2
+                id="sponsors-section-inner"
+                className={styles.subTitle}
+                style={{ marginTop: "-1px" }}
+              >
                 Sponsoring Partners 🫱🏼‍🫲🏾
               </h2>
               <SponsorsCard />

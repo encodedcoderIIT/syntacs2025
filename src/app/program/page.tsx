@@ -1,7 +1,7 @@
 import Carousel from "@/components/Carousel";
 import Head from "next/head";
-import Image from "next/image";
 import styles from "./Program.module.css";
+import Image from "next/image";
 
 export default function Program() {
   return (
@@ -19,129 +19,183 @@ export default function Program() {
         <div className={styles.cardBody}>
           <h1 className={styles.title}>Program ⌛</h1>
           <hr className={styles.divider} />
-          <div className={styles.schedule}>
-            <table className={styles.programTable}>
-              <thead>
-                <tr>
-                  <th>Time</th>
-                  <th>Event</th>
-                  <th>Venue</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">9.15-10.00</th>
-                  <td>Registration/High-Tea</td>
-                  <td>Senate Hall</td>
-                </tr>
-                <tr>
-                  <th scope="row">10.00-10.30</th>
-                  <td>Inauguration</td>
-                  <td>Senate Hall</td>
-                </tr>
-                <tr>
-                  <th scope="row">10.30-11.30</th>
-                  <td>
-                    <a href="#keynote1">Talk by Dr. Debabrata Nayak</a>
-                    <br />
-                    (Director, Huawei and PwC India)
-                  </td>
-                  <td>Senate Hall</td>
-                </tr>
-                <tr>
-                  <th scope="row">11.30-12.00</th>
-                  <td>Tea break</td>
-                  <td>Senate Hall</td>
-                </tr>
-                <tr>
-                  <th scope="row">12.00-12.50</th>
-                  <td>Research Highlights - 1</td>
-                  <td>Senate Hall</td>
-                </tr>
-                <tr>
-                  <th scope="row">12.50-14.00</th>
-                  <td>Lunch + Networking + Posters</td>
-                  <td>S. Ramanujan Block</td>
-                </tr>
-                <tr>
-                  <th scope="row">14.00-14.50</th>
-                  <td>Research Highlights - 2</td>
-                  <td>S. Ramanujan Block</td>
-                </tr>
-                <tr>
-                  <th scope="row">14.50-15.50</th>
-                  <td>
-                    <a href="#keynote2">Prof. Yogesh Simmhan</a>
-                    <br />
-                    (Professor, IISc, Bangalore)
-                  </td>
-                  <td>S. Ramanujan Block</td>
-                </tr>
-                <tr>
-                  <th scope="row">15.50-16.30</th>
-                  <td>Poster + Tea + Networking</td>
-                  <td>S. Ramanujan Block</td>
-                </tr>
-                <tr>
-                  <th scope="row">16.30-17.30</th>
-                  <td>Panel Discussion</td>
-                  <td>S. Ramanujan Block</td>
-                </tr>
-                <tr>
-                  <th scope="row">17.30-18.00</th>
-                  <td>Concluding Remarks</td>
-                  <td>S. Ramanujan Block</td>
-                </tr>
-                <tr>
-                  <th scope="row">18.30-19.30</th>
-                  <td>
-                    <a href="#alumni">Alumni Meet</a>
-                  </td>
-                  <td>S. Ramanujan Block</td>
-                </tr>
-              </tbody>
-            </table>
+          <div className={styles.scheduleCard}>
+            {/* <h2 className={styles.scheduleTitle}>Event Schedule</h2> */}
+            <div className={styles.scheduleWrapper}>
+              <table className={styles.programTable}>
+                <thead>
+                  <tr>
+                    <th>Time</th>
+                    <th>Event</th>
+                    <th>Venue</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">8:15-09:00</th>
+                    <td>Registration/High-Tea</td>
+                    <td>S. Ramanujan Block</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">09:00-09:30</th>
+                    <td>Inauguration</td>
+                    <td>
+                      CS Seminar Hall,
+                      <br />
+                      S. Ramanujan Block
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">09:30-10:30</th>
+                    <td>
+                      <a href="#keynote1">Talk by Dr. Debabrata Nayak</a>
+                      <br />
+                      (Director, Huawei and PwC India)
+                    </td>
+                    <td>
+                      CS Seminar Hall,
+                      <br />
+                      S. Ramanujan Block
+                      <br />
+                      <small>(Live Stream in CS-1)</small>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10:30-11:00</th>
+                    <td>Tea break</td>
+                    <td>S. Ramanujan Block</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10:30-14:00</th>
+                    <td>Posters</td>
+                    <td>
+                      Open CS area + Reception + Labs,
+                      <br />
+                      S. Ramanujan Block
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">13:00-14:00</th>
+                    <td>Lunch + Networking</td>
+                    <td>Behind S. Ramanujan Block</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">14:00-15:00</th>
+                    <td>
+                      <a href="#keynote2">Talk by Prof. Yogesh Simmhan</a>
+                      <br />
+                      (Professor, IISc, Bangalore)
+                    </td>
+                    <td>
+                      CS Seminar Hall,
+                      <br />
+                      S. Ramanujan Block
+                      <br />
+                      <small>(Live Stream in CS-1)</small>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">15:00-16:30</th>
+                    <td>Panel Discussion</td>
+                    <td>
+                      CS Seminar Hall,
+                      <br />
+                      S. Ramanujan Block
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">16:30-18:00</th>
+                    <td>Posters</td>
+                    <td>
+                      Open CS area + Reception + Labs,
+                      <br />
+                      S. Ramanujan Block
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">16:30-17:30</th>
+                    <td>Industry talks</td>
+                    <td>
+                      Conference Room,
+                      <br />
+                      S. Ramanujan Block
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">19:00-21:30</th>
+                    <td>Focused Group Discussion + Dinner</td>
+                    <td>TBD</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
           <hr className={styles.divider} />
           <section className={styles.details}>
-            <h4 id="keynote1" className={styles.subTitle}>
-              Talk by Dr. Debabrata Nayak
-            </h4>
-            <hr className={styles.divider} />
-            <p className={`${styles.text} justifyText`}>
-              Dr. Debabrata Nayak is a seasoned management professional with
-              over 18 years of experience in senior leadership roles,
-              specializing in Strategic IT Solutions, Service Delivery, Wireless
-              & Network Communications, and Security. Renowned for formulating
-              robust IT strategies, driving business continuity, and setting
-              security roadmaps, alongside presenting 62 research papers at
-              international forums like IEEE, he is skilled in managing
-              cross-functional teams, executing critical research projects, and
-              harmonizing technical needs with business objectives through
-              effective project planning and execution. Known for blending
-              technical expertise with strategic vision to deliver business
-              excellence and innovation.
-            </p>
-            <hr className={styles.divider} />
-            <h4 id="keynote2" className={styles.subTitle}>
-              Talk by Prof. Yogesh Simmhan
-            </h4>
-            <hr className={styles.divider} />
-            <p className={`${styles.text} justifyText`}>
-              Yogesh Simmhan, an Associate Professor in the Department of
-              Computational and Data Sciences at IISc Bangalore and a Swarna
-              Jayanti Fellow, specializes in scalable software platforms and
-              algorithms for Distributed Systems, including Cloud and Edge
-              Computing, Temporal Graph Processing, and Scalable Machine
-              Learning for Big Data and IoT. With over 100 peer-reviewed
-              publications and numerous accolades like the IEEE TCSC Award for
-              Excellence in Scalable Computing (2020) and multiple Best Paper
-              Awards, he is a prominent figure in his field. A Distinguished
-              Member of ACM and IEEE, he also serves on editorial boards of
-              leading journals and the ACM India Executive Council.
-            </p>
+            <div id="keynote1" className={styles.keynoteCard}>
+              <div className={styles.keynoteImageCol}>
+                <Image
+                  src="/assets/speakers/debabrata.jpg"
+                  alt="Dr. Debabrata Nayak"
+                  width={150}
+                  height={150}
+                  className={styles.speakerImage}
+                />
+              </div>
+              <div className={styles.keynoteContentCol}>
+                <h4 className={styles.subTitle}>Talk by Dr. Debabrata Nayak</h4>
+                <p className={`${styles.text} justifyText`}>
+                  Dr. Debabrata Nayak is a seasoned management professional with
+                  over 18 years of experience in senior leadership roles,
+                  specializing in Strategic IT Solutions, Service Delivery,
+                  Wireless & Network Communications, and Security. Renowned for
+                  formulating robust IT strategies, driving business continuity,
+                  and setting security roadmaps, alongside presenting 62
+                  research papers at international forums like IEEE, he is
+                  skilled in managing cross-functional teams, executing critical
+                  research projects, and harmonizing technical needs with
+                  business objectives through effective project planning and
+                  execution. Known for blending technical expertise with
+                  strategic vision to deliver business excellence and
+                  innovation.
+                </p>
+              </div>
+            </div>
+
+            <div id="keynote2" className={styles.keynoteCard}>
+              <div className={styles.keynoteImageCol}>
+                <Image
+                  src="/assets/speakers/yogesh.jpg"
+                  alt="Prof. Yogesh Simmhan"
+                  width={150}
+                  height={150}
+                  className={styles.speakerImage}
+                />
+              </div>
+              <div className={styles.keynoteContentCol}>
+                <h4 className={styles.subTitle}>
+                  Talk by Prof. Yogesh Simmhan
+                </h4>
+                <p className={`${styles.text} justifyText`}>
+                  Yogesh Simmhan, an Associate Professor in the Department of
+                  Computational and Data Sciences at IISc Bangalore and a Swarna
+                  Jayanti Fellow, specializes in scalable software platforms and
+                  algorithms for Distributed Systems, including Cloud and Edge
+                  Computing, Temporal Graph Processing, and Scalable Machine
+                  Learning for Big Data and IoT. With over 100 peer-reviewed
+                  publications and numerous accolades like the IEEE TCSC Award
+                  for Excellence in Scalable Computing (2020) and multiple Best
+                  Paper Awards, he is a prominent figure in his field. A
+                  Distinguished Member of ACM and IEEE, he also serves on
+                  editorial boards of leading journals and the ACM India
+                  Executive Council.
+                </p>
+              </div>
+            </div>
           </section>
-          <hr className={styles.divider} />
+
+          {/* Alumni meet secttion */}
+          {/* <hr className={styles.divider} />
           <h4 id="alumni" className={styles.subTitle}>
             Alumni Meet
           </h4>
@@ -187,7 +241,7 @@ export default function Program() {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

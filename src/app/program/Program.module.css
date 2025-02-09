@@ -33,30 +33,124 @@
   margin-bottom: 1.5rem;
 }
 
+.scheduleCard {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem 0;
+  overflow: hidden;
+}
+
+.scheduleTitle {
+  font-size: 1.5rem;
+  color: #2d3436;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.scheduleWrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 .programTable {
   width: 100%;
   border-collapse: collapse;
+  margin: 0 auto;
 }
 
 .programTable th,
 .programTable td {
-  padding: 0.75rem 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid #e9ecef;
   text-align: center;
-  border-bottom: 1px solid #eee;
   color: #333; /* Darker text color */
   text-align: left;
+}
+
+.programTable td {
+  vertical-align: top;
+  padding: 1rem;
+}
+
+.programTable small {
+  color: #666;
+  font-size: 0.85em;
+}
+
+.programTable td br {
+  content: "";
+  display: block;
+  margin: 2px 0;
 }
 
 .programTable thead {
   background-color: #f9f9f9;
 }
 
+.programTable thead th {
+  background: #f8f9fa;
+  font-weight: 600;
+  text-align: left;
+}
+
 .programTable tbody tr:hover {
-  background-color: #f1f1f1;
+  background-color: #f8f9fa;
+}
+
+.programTable a {
+  color: #0984e3;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.programTable a:hover {
+  color: #0057a3;
 }
 
 .details {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   margin: 2rem 0;
+}
+
+.keynoteCard {
+  display: flex;
+  gap: 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.keynoteCard:hover {
+  transform: translateY(-5px);
+}
+
+.keynoteImageCol {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+}
+
+.keynoteContentCol {
+  flex: 1;
+}
+
+.speakerImage {
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
+  display: block;
+  margin: auto;
+  border: #333 3px solid;
+}
+
+.justifyText {
+  text-align: justify;
 }
 
 .subTitle {
@@ -126,9 +220,34 @@
   }
   .programTable th,
   .programTable td {
-    padding: 0.5rem;
+    padding: 0.75rem;
   }
   .alumniCard {
     flex: 1 1 100%;
+  }
+  .keynoteCard {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+  }
+
+  .keynoteContentCol {
+    text-align: center;
+  }
+
+  .justifyText {
+    text-align: left;
+  }
+
+  .scheduleCard {
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+
+  .programTable th,
+  .programTable td {
+    padding: 0.75rem;
+    font-size: 0.9rem;
   }
 }

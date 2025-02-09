@@ -1,0 +1,53 @@
+{
+  "places": [
+    {
+      "placeName": "Chandigarh",
+      "emoji": "🏙️",
+      "details": "Chandigarh is a beautiful city located near Ropar and is known for its well-planned architecture, gardens, and museums. The city is also home to several important landmarks, such as the Rock Garden, Sukhna Lake, and the Capitol Complex.",
+      "distance": "47 KM",
+      "image": "/assets/nearby/chandigarh.png"
+    },
+    {
+      "placeName": "Ropar Wetland",
+      "emoji": "🚾",
+      "details": "The Ropar Wetland is a popular bird sanctuary and a beautiful natural reserve that is home to a variety of migratory birds. It is also a great spot for boating and picnics.",
+      "distance": "11 KM",
+      "image": "/assets/nearby/wetland.png"
+    },
+    {
+      "placeName": "Archaeological Museum",
+      "emoji": "🗿",
+      "details": "The Archaeological Museum in Ropar is a must-visit for history enthusiasts. It houses several ancient artifacts and relics that offer a glimpse into the region's rich past.",
+      "distance": "5 KM",
+      "image": "/assets/nearby/museum.png"
+    },
+    {
+      "placeName": "Virasat-e-Khalsa",
+      "emoji": "🖼️",
+      "details": "Virasat-e-Khalsa is a museum located in Anandpur Sahib, near Ropar, that showcases the history and culture of the Sikh religion. The museum is a popular tourist spot and is known for its unique architecture.",
+      "distance": "45 KM",
+      "image": "/assets/nearby/khalsa.png"
+    },
+    {
+      "placeName": "Bhakra Nangal Dam",
+      "emoji": "🌊",
+      "details": "The Bhakra Nangal Dam is another popular tourist attraction located near Ropar. It is one of the largest gravity dams in the world and is a major source of hydroelectric power in northern India.",
+      "distance": "79 KM",
+      "image": "/assets/nearby/bhakra.png"
+    },
+    {
+      "placeName": "Naina Devi Temple",
+      "emoji": "🛕",
+      "details": "Naina Devi Temple is a sacred Hindu temple located near Ropar. It is believed to be the site where the eyes of the Hindu goddess Sati fell, according to Hindu mythology. The temple is a popular pilgrimage site and is known for its beautiful architecture and scenic views.",
+      "distance": "68 KM",
+      "image": "/assets/nearby/naina.png"
+    },
+    {
+      "placeName": "Hill Stations",
+      "emoji": "⛰️",
+      "details": "4-6 hours drive away from popular hill stations such as Shimla 🚞, Manali ⛰️, Dharamshala 🪂, Dehradoon 🌄, etc.",
+      "distance": "4-6 hours",
+      "image": "/assets/nearby/shimla.png"
+    }
+  ]
+}
