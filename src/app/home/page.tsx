@@ -21,6 +21,13 @@ export default function Home() {
           <div className={styles.topSection}>
             <div id="about" className={styles.aboutSection}>
               <h1 className={styles.title}>Welcome to SYNTACS 2025</h1>
+              <Image
+                src="/assets/banner.jpg"
+                alt="SYNTACS 2025 Banner"
+                width={800}
+                height={400}
+                className={styles.bannerImage}
+              />
               <hr className={styles.divider} />
               <p className={`${styles.text} justifyText`}>
                 IIT Ropar&apos;s Computer Science and Engineering department
@@ -105,39 +112,52 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <h2 className={styles.subTitle}>Schedule ⌛</h2>
-          <p className={styles.text}>
-            The detailed schedule of the event can be found on the{" "}
-            <a href="/program">Program Page</a>.
-          </p>
-          <h2 className={styles.subTitle}>Registration 💻</h2>
-          <p className={styles.text}>
-            All participants must register for the symposium using the form
-            available on the <a href="/registration">Registration Page</a>.
-          </p>
-          <h2 className={styles.subTitle}>Venue 🗺️</h2>
-          <p className={styles.text}>
-            The event will be held at IIT Ropar. For more details on how to
-            reach the venue and nearby places to visit, please refer to the{" "}
-            <a href="/venue">Venue Page</a>.
-          </p>
-          <h2 className={styles.subTitle}>Contact 📩</h2>
-          <div className={styles.text}>
-            For any issues or queries, please contact us at:
-            <ul>
-              <li>
-                Email 📧:{" "}
-                <a href="mailto:cse.events@iitrpr.ac.in">
-                  cse.events@iitrpr.ac.in
-                </a>
-              </li>
-              <li>
-                Alternate Email 📧:{" "}
-                <a href="mailto:office-cse-1@iitrpr.ac.in">
-                  office-cse-1@iitrpr.ac.in
-                </a>
-              </li>
-            </ul>
+          <div className={styles.cardsContainer}>
+            <div className={styles.infoCard}>
+              <h2 className={styles.subTitle}>Schedule ⌛</h2>
+              <p className={styles.text}>
+                The detailed schedule of the event can be found on the{" "}
+                <a href="/program">Program Page</a>.
+              </p>
+            </div>
+
+            <div className={styles.infoCard}>
+              <h2 className={styles.subTitle}>Registration 💻</h2>
+              <p className={styles.text}>
+                All participants must register for the symposium using the form
+                available on the <a href="/registration">Registration Page</a>.
+              </p>
+            </div>
+
+            <div className={styles.infoCard}>
+              <h2 className={styles.subTitle}>Venue 🗺️</h2>
+              <p className={styles.text}>
+                The event will be held at IIT Ropar. For more details on how to
+                reach the venue and nearby places to visit, please refer to the{" "}
+                <a href="/venue">Venue Page</a>.
+              </p>
+            </div>
+
+            <div className={styles.infoCard}>
+              <h2 className={styles.subTitle}>Contact 📩</h2>
+              <div className={styles.text}>
+                For any issues or queries, please contact us at:
+                <ul>
+                  <li>
+                    Email 📧:{" "}
+                    <a href="mailto:cse.events@iitrpr.ac.in">
+                      cse.events@iitrpr.ac.in
+                    </a>
+                  </li>
+                  <li>
+                    Alternate Email 📧:{" "}
+                    <a href="mailto:office-cse-1@iitrpr.ac.in">
+                      office-cse-1@iitrpr.ac.in
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>

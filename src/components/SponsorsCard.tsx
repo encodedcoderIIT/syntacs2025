@@ -32,7 +32,7 @@ export default function SponsorsCard() {
         <div className={styles.sponsorItem}>
           <Image
             src="/assets/sponsors/cards.png"
-            alt="iHub Awadh"
+            alt="CARDS"
             width={200}
             height={100}
             className={styles.sponsorImage}
@@ -43,7 +43,7 @@ export default function SponsorsCard() {
         <div className={styles.sponsorItem}>
           <Image
             src="/assets/sponsors/itjrc.png"
-            alt="iHub Awadh"
+            alt="ITJRC"
             width={200}
             height={100}
             className={styles.sponsorImage}
