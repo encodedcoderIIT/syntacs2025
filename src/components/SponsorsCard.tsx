@@ -31,7 +31,7 @@ export default function SponsorsCard() {
         </div>
         <div className={styles.sponsorItem}>
           <Image
-            src="/assets/sponsors/cards.png"
+            src="/assets/sponsors/abc.png"
             alt="CARDS"
             width={200}
             height={100}
