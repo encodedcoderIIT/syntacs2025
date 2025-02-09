@@ -51,5 +51,12 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
     padding: 0.5rem;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .sponsorGrid {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
