@@ -35,6 +35,15 @@ export default function Registration() {
                   syntacs2025.site/register
                 </a>
               </p>
+              <div className={styles.text}>
+                <h3 className={styles.subTitle}>Event Highlights 🎯</h3>
+                <ul className={styles.highlightsList}>
+                  <li>🎤 Keynote Talks </li>
+                  <li>🖼️ Poster Presentations </li>
+                  <li>🏢 Industry Interactions </li>
+                  <li> 🗣️Panel Discussion </li>
+                </ul>
+              </div>
             </div>
             <div className={`${styles.card} ${styles.qrCodeCard}`}>
               <div className={styles.imageContainer}>

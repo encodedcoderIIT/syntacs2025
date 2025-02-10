@@ -71,10 +71,10 @@ src/
 
 # 🎯 Event Details
 
-Date: 8th March 2025
-Venue: IIT Ropar, Punjab, India
-Target Audience: Research scholars, academicians, and industry professionals
-Contact: cse.events@iitrpr.ac.in
+- **Date**: 8th March 2025
+- **Venue**: IIT Ropar, Punjab, India
+- **Target Audience**: Research scholars, academicians, and industry professionals
+- **Contact**: cse.events@iitrpr.ac.in
 
 # 📝 License
 
@@ -121,9 +121,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - Industry Interactions
 - Panel Discussion
 
-# Posters @ IIT Ropar
+# 🖼️ Posters @ IIT Ropar
 
-## Strategic Intelligence and Theoretical CS
+## 🧠 Strategic Intelligence and Theoretical CS
 
 - Online Algorithms for Clustering with Capacity Constraints
 - Circuits, Proofs and Propositional Model Counting
@@ -134,7 +134,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - Defective graph Coloring
 - Energy consumption optimization and clustering of drones
 
-## Network and Security
+## 🔒 Network and Security
 
 - Unleashing the Potential of Machine Learning and NLP Contextual Word Embedding for URL-Based Malicious Traffic Classification
 - PhishURLDetect: A Parameter Efficient Fine-Tuning of LLMs Using LoRA for Detection of Phishing URLs
@@ -142,7 +142,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - Energy efficient human recognition using wearable devices
 - Machine Learning-Based Workload Prediction in Vehicular Platooning Systems
 
-## Visual Computing
+## 🖥️ Visual Computing
 
 - MIP-GAF: A MLLM-annotated Benchmark For Most Important Person Localization And Group Context Understanding
 - SSGAN: Cloud removal in satellite images using spatiospectral generative adversarial network
@@ -163,7 +163,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - Characterizing Continual Learning Scenarios and Strategies for Audio Analysis
 - AppleV: A dataset for Apple fruit Volume Estimation
 
-## System Architecture and Infrastructure
+## 🏗️ System Architecture and Infrastructure
 
 - RRR: Rethinking Randomized Remapping for High Performance and Secured NVM LLC
 - Eliminating Page Migration Overhead in Heterogeneous Memory Architecture
@@ -174,7 +174,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - Low Power High SFDR DDFS for Quantum Processor
 - Performance Analysis of LLM Inference on Edge Accelerators
 
-## Computing Applications
+## 💻 Computing Applications
 
 - EM Trigger Defender Glove
 - Digital Twins in Marine Industry
@@ -182,7 +182,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - Radish Growth Web App
 - Video Mashup
 
-# Demos @ IIT Ropar
+# 🚀 Demos @ IIT Ropar
 
 Take part in the following exciting demos at IIT Ropar, from defence tech to digital twins:
 
@@ -195,6 +195,6 @@ Take part in the following exciting demos at IIT Ropar, from defence tech to dig
 - Agricultural Chatbot: Improving Context-Specific Query Resolution with LLMs, RASA, and RAG Systems
 - Turmeric adulteration
 
-# Designed and Developed By:
+# 👨‍💻Designed and Developed By:
 
 [Suresh](https://encodedcoder.com)
