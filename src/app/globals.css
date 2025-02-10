@@ -17,7 +17,7 @@ a:hover {
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --header-height: 60px;
+  --header-height: 70px;
 }
 
 @media (prefers-color-scheme: dark) {

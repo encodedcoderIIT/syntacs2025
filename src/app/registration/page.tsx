@@ -57,18 +57,23 @@ export default function Registration() {
               </div>
             </div>
           </div>
-          <h2 className={styles.subTitle}>Contact 📩</h2>
-          <p className={styles.text}>
-            In case of any issues, kindly contact us at{" "}
-            <a href="mailto:cse.events@iitrpr.ac.in" className="hrefLinkBlue">
-              cse.events@iitrpr.ac.in
-            </a>
-            <br />
-            Alternatively, you can reach us at{" "}
-            <a href="mailto:office-cse-1@iitrpr.ac.in" className="hrefLinkBlue">
-              office-cse-1@iitrpr.ac.in
-            </a>
-          </p>
+          <div className={styles.contactCard}>
+            <h2 className={styles.subTitle}>Contact 📩</h2>
+            <p className={styles.text}>
+              In case of any issues, kindly contact us at{" "}
+              <a href="mailto:cse.events@iitrpr.ac.in" className="hrefLinkBlue">
+                cse.events@iitrpr.ac.in
+              </a>
+              <br />
+              Alternatively, you can reach us at{" "}
+              <a
+                href="mailto:office-cse-1@iitrpr.ac.in"
+                className="hrefLinkBlue"
+              >
+                office-cse-1@iitrpr.ac.in
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </div>

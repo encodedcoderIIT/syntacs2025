@@ -133,3 +133,42 @@
   /* left: 0.5rem; */
   color: #0984e3;
 }
+
+.contactCard {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem 0;
+  transition: transform 0.2s ease;
+}
+
+.contactCard:hover {
+  transform: translateY(-5px);
+}
+
+.contactCard .subTitle {
+  margin-top: 0;
+}
+
+.contactCard .text {
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+.contactCard a {
+  color: #0984e3;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contactCard a:hover {
+  color: #0057a3;
+}
+
+@media (max-width: 768px) {
+  .contactCard {
+    padding: 1.5rem;
+    margin: 1rem 0;
+  }
+}
