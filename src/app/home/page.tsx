@@ -1,8 +1,12 @@
+"use client";
+
 import Head from "next/head";
 import Carousel from "../../components/Carousel";
 import Image from "next/image";
 import styles from "./Home.module.css";
 import SponsorsCard from "@/components/SponsorsCard";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
   return (
@@ -57,6 +61,17 @@ export default function Home() {
                 <strong>Date:</strong> 8th March 2025
                 <br />
                 <strong>Location 📍:</strong> IIT Ropar, Punjab, India
+                <br />
+                <button
+                  onClick={() => window.open("/docs/brochure.pdf", "_blank")}
+                  className={styles.downloadButton}
+                >
+                  <FontAwesomeIcon
+                    icon={faFilePdf}
+                    className={styles.pdfIcon}
+                  />{" "}
+                  Event Brochure
+                </button>
               </p>
             </div>
             <div id="sponsors" className={styles.sponsorsSection}>
