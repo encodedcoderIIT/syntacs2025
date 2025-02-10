@@ -167,7 +167,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div>
+          <div className={styles.glimpsesContainer}>
             <h2 className={styles.subTitle}>SYNTACS &apos;24 Glimpses 📸</h2>
             <div className={styles.glimpsesContainer}>
               {Array.from({ length: 21 }, (_, index) => (
