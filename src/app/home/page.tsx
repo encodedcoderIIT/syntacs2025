@@ -23,7 +23,7 @@ export default function Home() {
               <h1 className={styles.title}>Welcome to SYNTACS &apos;25</h1>
               <hr className={styles.divider} />
               <Image
-                src="/assets/banner.jpg"
+                src="/assets/banner.png"
                 alt="SYNTACS 2025 Banner"
                 width={800}
                 height={400}
