@@ -23,7 +23,11 @@ export default function Registration() {
             <div className={`${styles.card}`} id="register-request">
               <p className={styles.text}>
                 All participants must mandatorily register for the symposium
-                using the form below by <b>TBA</b>:
+                using the form below by{" "}
+                <b>
+                  25<sup>th</sup> Feb, 2025
+                </b>
+                :
               </p>
               <p className={styles.text}>
                 <a
