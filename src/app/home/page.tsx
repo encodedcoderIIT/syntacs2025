@@ -168,7 +168,7 @@ export default function Home() {
           </div>
 
           <div>
-            <h2 className={styles.subTitle}>Glimpses of 2024 📸</h2>
+            <h2 className={styles.subTitle}>SYNTACS &apos;24 Glimpses 📸</h2>
             <div className={styles.glimpsesContainer}>
               <div className={styles.glimpseCard}>
                 <Image

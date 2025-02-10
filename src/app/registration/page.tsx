@@ -27,12 +27,12 @@ export default function Registration() {
               </p>
               <p className={styles.text}>
                 <a
-                  href="/form-link"
+                  href="/register"
                   target="_blank"
                   rel="noreferrer"
                   className="hrefLinkBlue"
                 >
-                  syntacs2025.site/form-link
+                  syntacs2025.site/register
                 </a>
               </p>
             </div>

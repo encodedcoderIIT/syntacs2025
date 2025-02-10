@@ -119,12 +119,12 @@
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 2rem 0;
 }
 
 .infoCard {
-  width: 48%;
+  width: 46%;
   padding: 1.5rem;
   background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(10px);
@@ -157,7 +157,7 @@
 }
 
 .infoCard a:hover {
-  color: #0057a3;
+  color: #023969;
 }
 
 .glimpsesContainer {
@@ -224,6 +224,7 @@
   }
   .cardsContainer {
     gap: 1rem;
+    /* width: 48%; */
   }
   .glimpsesContainer {
     gap: 1.5rem;
@@ -245,6 +246,13 @@
     flex: 0 0 100%;
   }
 }
+
+/* @media (min-width: 768px) {
+  .infoCard {
+    width: 48%;
+    margin: 0 auto;
+  }
+} */
 
 #sponsors-section-inner {
   margin-top: 0;
