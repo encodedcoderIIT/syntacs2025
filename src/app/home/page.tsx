@@ -170,43 +170,17 @@ export default function Home() {
           <div>
             <h2 className={styles.subTitle}>SYNTACS &apos;24 Glimpses 📸</h2>
             <div className={styles.glimpsesContainer}>
-              <div className={styles.glimpseCard}>
-                <Image
-                  src="/assets/glimpses/2024_1.jpg"
-                  alt="Glimpse 1"
-                  width={300}
-                  height={200}
-                  className={styles.glimpseImage}
-                />
-              </div>
-              <div className={styles.glimpseCard}>
-                <Image
-                  src="/assets/glimpses/2024_2.jpg"
-                  alt="Glimpse 1"
-                  width={300}
-                  height={200}
-                  className={styles.glimpseImage}
-                />
-              </div>
-              <div className={styles.glimpseCard}>
-                <Image
-                  src="/assets/glimpses/2024_3.jpg"
-                  alt="Glimpse 2"
-                  width={300}
-                  height={200}
-                  className={styles.glimpseImage}
-                />
-              </div>
-              <div className={styles.glimpseCard}>
-                <Image
-                  src="/assets/glimpses/2024_4.jpg"
-                  alt="Glimpse 3"
-                  width={300}
-                  height={200}
-                  className={styles.glimpseImage}
-                />
-                {/* <p className={styles.glimpseText}>Networking session</p> */}
-              </div>
+              {Array.from({ length: 21 }, (_, index) => (
+                <div key={index} className={styles.glimpseCard}>
+                  <Image
+                    src={`/assets/glimpses/2024_${index + 1}.jpg`}
+                    alt={`Glimpse ${index + 1}`}
+                    width={300}
+                    height={200}
+                    className={styles.glimpseImage}
+                  />
+                </div>
+              ))}
             </div>
           </div>
         </div>

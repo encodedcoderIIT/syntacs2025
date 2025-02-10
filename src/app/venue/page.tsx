@@ -62,18 +62,18 @@ export default function Venue() {
                     Also, you can get state or private bus 🚌 transport from
                     ‘Sector 43’ bus stand of Chandigarh to the Rupnagar bus
                     stand which will cost around ₹80. Then auto-rickshaw 🛺 may
-                    cost around ₹250 to reach IIT Ropar from Rupnagar bus stand.
+                    cost around ₹300 to reach IIT Ropar from Rupnagar bus stand.
                   </li>
                   <li>
                     <b>From Chandigarh Airport 🛫:</b> You can get a pre-paid
-                    taxi which will cost around ₹1500. The taxi can drop you off
+                    taxi which will cost around ₹1680. The taxi can drop you off
                     directly at respective hostel/Guest-house. The taxi or
                     auto-rickshaw would have to make an entry at the IIT Main
                     Gate at the Security.
                   </li>
                   <li>
                     <b>From Rupnagar Railway Station 🚂:</b> An auto-rickshaw
-                    may cost around ₹250 to reach IIT till hostel or
+                    may cost around ₹300 to reach IIT till hostel or
                     Guest-house.
                   </li>
                 </ul>
