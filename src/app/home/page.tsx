@@ -8,6 +8,8 @@ import SponsorsCard from "@/components/SponsorsCard";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
+const GlimpsesImages = 40;
+
 export default function Home() {
   return (
     <div>
@@ -185,7 +187,7 @@ export default function Home() {
           <div className={styles.glimpsesContainer}>
             <h2 className={styles.subTitle}>SYNTACS &apos;24 Glimpses 📸</h2>
             <div className={styles.glimpsesContainer}>
-              {Array.from({ length: 21 }, (_, index) => (
+              {Array.from({ length: GlimpsesImages }, (_, index) => (
                 <div key={index} className={styles.glimpseCard}>
                   <Image
                     src={`/assets/glimpses/2024_${index + 1}.jpg`}
