@@ -5,8 +5,8 @@ import Carousel from "../../components/Carousel";
 import Image from "next/image";
 import styles from "./Home.module.css";
 import SponsorsCard from "@/components/SponsorsCard";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 const GlimpsesImages = 40;
 
@@ -57,23 +57,6 @@ export default function Home() {
                 experience, broaden your professional network, and make the most
                 of SYNTACS - a day full of learning and collaborative
                 opportunities.
-              </p>
-              <h2 className={styles.subTitle}>Event Details ⌚</h2>
-              <p className={styles.text}>
-                <strong>Date:</strong> 8th March 2025
-                <br />
-                <strong>Location 📍:</strong> IIT Ropar, Punjab, India
-                <br />
-                <button
-                  onClick={() => window.open("/docs/brochure.pdf", "_blank")}
-                  className={styles.downloadButton}
-                >
-                  <FontAwesomeIcon
-                    icon={faFilePdf}
-                    className={styles.pdfIcon}
-                  />{" "}
-                  Event Brochure
-                </button>
               </p>
             </div>
             <div id="sponsors" className={styles.sponsorsSection}>

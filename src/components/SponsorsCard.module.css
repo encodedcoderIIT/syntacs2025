@@ -1,3 +1,19 @@
+.title {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #333;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.subTitle {
+  font-size: 2rem;
+  text-align: left;
+  color: #333;
+  margin: 1.5rem 0 0.5rem;
+  font-weight: 600;
+}
+
 .sponsorCard {
   background: linear-gradient(
     135deg,
@@ -64,4 +80,36 @@
   .sponsorGrid {
     grid-template-columns: repeat(1, 1fr);
   }
+}
+
+.downloadButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.downloadButton:hover {
+  background-color: #0051b3;
+  transform: translateY(-1px);
+}
+
+.downloadButton:active {
+  transform: scale(0.98);
+}
+
+.pdfIcon {
+  font-size: 18px;
+}
+
+.marginTop {
+  margin-top: 1rem;
 }

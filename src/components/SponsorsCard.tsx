@@ -2,6 +2,8 @@
 
 import Image from "next/image";
 import styles from "./SponsorsCard.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 export default function SponsorsCard() {
   return (
@@ -18,7 +20,7 @@ export default function SponsorsCard() {
             loading="eager"
           />
         </div>
-        <div className={styles.sponsorItem}>
+        {/* <div className={styles.sponsorItem}>
           <Image
             src="/assets/sponsors/awadh.png"
             alt="iHub Awadh"
@@ -28,8 +30,8 @@ export default function SponsorsCard() {
             priority
             loading="eager"
           />
-        </div>
-        <div className={styles.sponsorItem}>
+        </div> */}
+        {/* <div className={styles.sponsorItem}>
           <Image
             src="/assets/sponsors/abc.png"
             alt="CARDS"
@@ -39,7 +41,7 @@ export default function SponsorsCard() {
             priority
             loading="eager"
           />
-        </div>
+        </div> */}
         <div className={styles.sponsorItem}>
           <Image
             src="/assets/sponsors/itjrc.png"
@@ -52,6 +54,22 @@ export default function SponsorsCard() {
           />
         </div>
       </div>
+      <h2 className={`${styles.subTitle} ${styles.marginTop}`}>
+        Event Details
+      </h2>
+      <p className={styles.text}>
+        <strong>Date:</strong> 8th March 2025
+        <br />
+        <strong>Location 📍:</strong> IIT Ropar, Punjab, India
+        <br />
+        <button
+          onClick={() => window.open("/docs/brochure.pdf", "_blank")}
+          className={styles.downloadButton}
+        >
+          <FontAwesomeIcon icon={faFilePdf} className={styles.pdfIcon} /> Event
+          Brochure
+        </button>
+      </p>
     </div>
   );
 }
