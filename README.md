@@ -1,4 +1,4 @@
-# SYNTACS-2025
+# SYNTACS '25
 
 SYNTACS (SYmposium on Novel Technologies and Advances in Computer Science) is a one-day symposium organized by the Department of Computer Science & Engineering at IIT Ropar. This repository contains the source code for the symposium's official website.
 
