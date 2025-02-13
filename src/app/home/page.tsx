@@ -157,7 +157,7 @@ export default function Home() {
                     </a>
                   </li>
                   <li>
-                    Alternate Email 📧:{" "}
+                    Alternate 📧:{" "}
                     <a href="mailto:office-cse-1@iitrpr.ac.in">
                       office-cse-1@iitrpr.ac.in
                     </a>
