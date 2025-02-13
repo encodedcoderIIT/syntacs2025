@@ -15,37 +15,37 @@ The website is built using:
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/your-username/SYNTACS-2025.git
-cd SYNTACS-2025
-```
+   ```bash
+   git clone https://github.com/encodedcoderIIT/syntacs2025.git
+   cd SYNTACS-2025
+   ```
 
-First, run the development server:
+2. Run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   # or
+   bun dev
+   ```
 
-# 📁 Project Structure
+## 📁 Project Structure
 
 ```
 src/
 ├── app/                  # Next.js app router pages
-│   ├── home/            # Home page
-│   ├── program/         # Program schedule
-│   ├── registration/    # Registration details
-│   └── venue/          # Venue information
-├── components/          # Reusable React components
-└── styles/             # CSS modules and global styles
+│   ├── home/             # Home page
+│   ├── program/          # Program schedule
+│   ├── registration/     # Registration details
+│   └── venue/            # Venue information
+├── components/           # Reusable React components
+└── styles/               # CSS modules and global styles
 ```
 
-# 🎨 Features
+## 🎨 Features
 
 - Responsive design for mobile and desktop
 - Dynamic image carousel
@@ -55,39 +55,39 @@ src/
 - Venue details with map integration
 - Sponsor showcase
 
-# 🛠️ Available Scripts
+## 🛠️ Available Scripts
 
 - `npm run dev` - Start development server with Turbopack
 - `npm run build` - Build production bundle
 - `npm run start` - Start production server
 - `npm run lint` - Run ESLint for code quality
 
-# 🔧 Configuration Files
+## 🔧 Configuration Files
 
 - `next.config.ts` - Next.js configuration
 - `tailwind.config.ts` - Tailwind CSS configuration
 - `tsconfig.json` - TypeScript configuration
 - `postcss.config.js` - PostCSS configuration
 
-# 🎯 Event Details
+## 🎯 Event Details
 
 - **Date**: 8th March 2025
 - **Venue**: IIT Ropar, Punjab, India
 - **Target Audience**: Research scholars, academicians, and industry professionals
 - **Contact**: cse.events@iitrpr.ac.in
 
-# 📝 License
+## 📝 License
 
 Copyright © 2025 Department of Computer Science & Engineering, IIT Ropar. All Rights Reserved.
 
-# 🤝 Contributing
+## 🤝 Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 
-# 🔍 Learn More
+## 🔍 Learn More
 
 - [Next.js Documentation](https://nextjs.org/docs)
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
@@ -99,31 +99,16 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
-# Event Highlights
+## 🌟 Event Highlights
 
 - Keynote Talks
 - Poster Presentations
 - Industry Interactions
 - Panel Discussion
 
-# 🖼️ Posters @ IIT Ropar
+## 🖼️ Posters @ IIT Ropar
 
-## 🧠 Strategic Intelligence and Theoretical CS
+### 🧠 Strategic Intelligence and Theoretical CS
 
 - Online Algorithms for Clustering with Capacity Constraints
 - Circuits, Proofs and Propositional Model Counting
@@ -134,7 +119,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - Defective graph Coloring
 - Energy consumption optimization and clustering of drones
 
-## 🔒 Network and Security
+### 🔒 Network and Security
 
 - Unleashing the Potential of Machine Learning and NLP Contextual Word Embedding for URL-Based Malicious Traffic Classification
 - PhishURLDetect: A Parameter Efficient Fine-Tuning of LLMs Using LoRA for Detection of Phishing URLs
@@ -142,7 +127,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - Energy efficient human recognition using wearable devices
 - Machine Learning-Based Workload Prediction in Vehicular Platooning Systems
 
-## 🖥️ Visual Computing
+### 🖥️ Visual Computing
 
 - MIP-GAF: A MLLM-annotated Benchmark For Most Important Person Localization And Group Context Understanding
 - SSGAN: Cloud removal in satellite images using spatiospectral generative adversarial network
@@ -163,7 +148,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - Characterizing Continual Learning Scenarios and Strategies for Audio Analysis
 - AppleV: A dataset for Apple fruit Volume Estimation
 
-## 🏗️ System Architecture and Infrastructure
+### 🏗️ System Architecture and Infrastructure
 
 - RRR: Rethinking Randomized Remapping for High Performance and Secured NVM LLC
 - Eliminating Page Migration Overhead in Heterogeneous Memory Architecture
@@ -174,7 +159,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - Low Power High SFDR DDFS for Quantum Processor
 - Performance Analysis of LLM Inference on Edge Accelerators
 
-## 💻 Computing Applications
+### 💻 Computing Applications
 
 - EM Trigger Defender Glove
 - Digital Twins in Marine Industry
@@ -182,7 +167,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - Radish Growth Web App
 - Video Mashup
 
-# 🚀 Demos @ IIT Ropar
+## 🚀 Demos @ IIT Ropar
 
 Take part in the following exciting demos at IIT Ropar, from defence tech to digital twins:
 
@@ -195,6 +180,6 @@ Take part in the following exciting demos at IIT Ropar, from defence tech to dig
 - Agricultural Chatbot: Improving Context-Specific Query Resolution with LLMs, RASA, and RAG Systems
 - Turmeric adulteration
 
-# 👨‍💻Designed and Developed By:
+## 👨‍💻 Designed and Developed By:
 
 [Suresh](https://encodedcoder.com)
