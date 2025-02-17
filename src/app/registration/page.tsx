@@ -26,7 +26,7 @@ export default function Registration() {
                 All participants must mandatorily register for the symposium
                 using the form below by{" "}
                 <b>
-                  25<sup>th</sup> Feb, 2025
+                  24<sup>th</sup> Feb, 2025
                 </b>
                 :
               </p>
