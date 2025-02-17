@@ -2,6 +2,7 @@ import Head from "next/head";
 import Carousel from "@/components/Carousel";
 import Image from "next/image";
 import styles from "./Registration.module.css";
+import GoogleForm from "@/components/GoogleForm";
 
 export default function Registration() {
   return (
@@ -60,6 +61,9 @@ export default function Registration() {
                 />
               </div>
             </div>
+          </div>
+          <div className={styles.contactCard}>
+            <GoogleForm />
           </div>
           <div className={styles.contactCard}>
             <h2 className={styles.subTitle}>Contact 📩</h2>

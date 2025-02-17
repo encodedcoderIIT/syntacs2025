@@ -1,0 +1,22 @@
+.googleFormContainer {
+  width: 900px;
+  margin: 0 auto; /* Centers the container horizontally */
+  border: 0;
+}
+
+.googleFormContainer iframe {
+  width: 100%;
+  height: 1100px;
+  border: none;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .googleFormContainer {
+    width: 100%;
+  }
+  .googleFormContainer iframe {
+    width: 100% !important;
+    height: 1250px !important;
+  }
+}
