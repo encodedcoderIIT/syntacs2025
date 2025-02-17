@@ -3,8 +3,29 @@ import Carousel from "@/components/Carousel";
 import Image from "next/image";
 import styles from "./Registration.module.css";
 import GoogleForm from "@/components/GoogleForm";
+import { JSX } from "react";
 
 export default function Registration() {
+  const formLinks = {
+    registrationLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSfKxHY9nVM-lcNQCmRWsp7BIVyuJemSlnWK1gZc--zj_PlpMw/viewform?embedded=true",
+    industryRegistration:
+      "https://docs.google.com/forms/d/e/1FAIpQLSdTSdPvrpK1WjPcZpiH1nN_JZhUOMBbcX3mzo7KJfv8A6DMxA/viewform?embedded=true",
+  };
+
+  // Convert the object values into an array
+  const linksArray = Object.values(formLinks);
+  const formsToRender: JSX.Element[] = [];
+
+  // Loop over the array of links
+  for (let i = 0; i < linksArray.length; i++) {
+    formsToRender.push(
+      <div className={styles.contactCard} key={i}>
+        <GoogleForm formUrl={linksArray[i]} />
+      </div>
+    );
+  }
+
   return (
     <div>
       <Head>
@@ -40,6 +61,18 @@ export default function Registration() {
                   syntacs2025.site/register
                 </a>
               </p>
+              <p className={styles.text}>
+                For industry participants, kindly register using the form below
+                by the same deadline: <br />
+                <a
+                  href="/industryRegister"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="hrefLinkBlue"
+                >
+                  syntacs2025.site/industryRegister
+                </a>
+              </p>
               <div className={styles.text}>
                 <h3 className={styles.subTitle}>Event Highlights 🎯</h3>
                 <ul className={styles.highlightsList}>
@@ -62,9 +95,8 @@ export default function Registration() {
               </div>
             </div>
           </div>
-          <div className={styles.contactCard}>
-            <GoogleForm />
-          </div>
+          {/* Render the forms */}
+          {/* {formsToRender} */}
           <div className={styles.contactCard}>
             <h2 className={styles.subTitle}>Contact 📩</h2>
             <p className={styles.text}>
