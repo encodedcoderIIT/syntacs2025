@@ -34,31 +34,21 @@ export default function Program() {
                   <tr>
                     <th scope="row">8:15-09:00</th>
                     <td>Registration/High-Tea</td>
-                    <td>S. Ramanujan Block</td>
+                    <td>Senate Hall</td>
                   </tr>
                   <tr>
                     <th scope="row">09:00-09:30</th>
                     <td>Inauguration</td>
-                    <td>
-                      CS Seminar Hall,
-                      <br />
-                      S. Ramanujan Block
-                    </td>
+                    <td>Senate Hall</td>
                   </tr>
                   <tr>
                     <th scope="row">09:30-10:30</th>
                     <td>
                       <a href="#keynote1">Talk by Dr. Debabrata Nayak</a>
                       <br />
-                      (Director, Huawei and PwC India)
+                      (Director, PwC India)
                     </td>
-                    <td>
-                      CS Seminar Hall,
-                      <br />
-                      S. Ramanujan Block
-                      <br />
-                      <small>(Live Stream in CS-1)</small>
-                    </td>
+                    <td>Senate Hall</td>
                   </tr>
                   <tr>
                     <th scope="row">10:30-11:00</th>
@@ -66,8 +56,8 @@ export default function Program() {
                     <td>S. Ramanujan Block</td>
                   </tr>
                   <tr>
-                    <th scope="row">10:30-14:00</th>
-                    <td>Posters</td>
+                    <th scope="row">10:30-13:00</th>
+                    <td>Demos and Posters Session 1</td>
                     <td>
                       Open CS area + Reception + Labs,
                       <br />
@@ -80,32 +70,8 @@ export default function Program() {
                     <td>Behind S. Ramanujan Block</td>
                   </tr>
                   <tr>
-                    <th scope="row">14:00-15:00</th>
-                    <td>
-                      <a href="#keynote2">Talk by Prof. Yogesh Simmhan</a>
-                      <br />
-                      (Professor, IISc, Bangalore)
-                    </td>
-                    <td>
-                      CS Seminar Hall,
-                      <br />
-                      S. Ramanujan Block
-                      <br />
-                      <small>(Live Stream in CS-1)</small>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">15:00-16:30</th>
-                    <td>Panel Discussion</td>
-                    <td>
-                      CS Seminar Hall,
-                      <br />
-                      S. Ramanujan Block
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">16:30-18:00</th>
-                    <td>Posters</td>
+                    <th scope="row">14:00-16:30</th>
+                    <td>Demos and Posters Session 2</td>
                     <td>
                       Open CS area + Reception + Labs,
                       <br />
@@ -113,18 +79,28 @@ export default function Program() {
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row">16:30-17:30</th>
-                    <td>Industry talks</td>
-                    <td>
-                      Conference Room,
-                      <br />
-                      S. Ramanujan Block
-                    </td>
+                    <th scope="row">16:00-16:30</th>
+                    <td>Tea Break</td>
+                    <td>S. Ramanujan Block</td>
                   </tr>
                   <tr>
-                    <th scope="row">19:00-21:30</th>
-                    <td>Focused Group Discussion + Dinner</td>
-                    <td>TBD</td>
+                    <th scope="row">16:30-17:30</th>
+                    <td>
+                      <a href="#keynote2">Talk by Prof. Simmhan</a>
+                      <br />
+                      (Professor, IISc, Bangalore)
+                    </td>
+                    <td>Senate Hall</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">17:30-18:30</th>
+                    <td>Panel Discussion</td>
+                    <td>Senate Hall</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">18:30-18:45</th>
+                    <td>Closing Ceremony</td>
+                    <td>Senate Hall</td>
                   </tr>
                 </tbody>
               </table>
