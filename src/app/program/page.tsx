@@ -86,7 +86,7 @@ export default function Program() {
                   <tr>
                     <th scope="row">16:30-17:30</th>
                     <td>
-                      <a href="#keynote2">Talk by Prof. Simmhan</a>
+                      <a href="#keynote2">Talk by Prof. Yogesh Simmhan</a>
                       <br />
                       (Professor, IISc, Bangalore)
                     </td>
