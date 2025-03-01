@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import StructuredData from "../components/StructuredData";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -21,8 +22,65 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "SYNTACS 2025",
-  description: "SYNTACS 2025",
+  metadataBase: new URL("https://syntacs2025.site"),
+  title: {
+    default: "SYNTACS 2025 | Systems, Networks, Technical Applications in CS",
+    template: "%s | SYNTACS 2025",
+  },
+  description:
+    "International Conference on Systems, Networks, and Technical Applications in Computer Science at IIT Ropar, 8th March 2025. Featuring keynotes by Dr. Debabrata Nayak (PwC India) and Prof. Yogesh Simmhan (IISc Bangalore).",
+  keywords: [
+    "SYNTACS",
+    "conference",
+    "computer science",
+    "IIT Ropar",
+    "technology",
+    "2025",
+    "systems",
+    "networks",
+    "technical applications",
+    "research",
+    "symposium",
+    "Dr. Debabrata Nayak",
+    "Prof. Yogesh Simmhan",
+  ],
+  authors: [
+    { name: "CSE Department, IIT Ropar", url: "https://cse.iitrpr.ac.in/" },
+  ],
+  creator: "IIT Ropar",
+  publisher: "Department of Computer Science & Engineering, IIT Ropar",
+  formatDetection: {
+    email: false,
+    telephone: false,
+    address: false,
+  },
+  alternates: {
+    canonical: "https://syntacs2025.site",
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://syntacs2025.site/",
+    title: "SYNTACS 2025 - International Conference on Computer Science",
+    description:
+      "Join us at SYNTACS 2025 - International Conference on Systems, Networks, and Technical Applications in Computer Science at IIT Ropar, 8th March 2025.",
+    siteName: "SYNTACS 2025",
+    images: [
+      {
+        url: "/assets/carousels/carousel-1.png",
+        width: 1200,
+        height: 630,
+        alt: "SYNTACS 2025 Conference",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SYNTACS 2025 - International Conference",
+    description:
+      "Join us at SYNTACS 2025 - International Conference on Systems, Networks, and Technical Applications in Computer Science at IIT Ropar, 8th March 2025.",
+    images: ["/assets/carousels/carousel-1.png"],
+  },
   icons: {
     icon: [
       { url: "/favicon.ico" },
@@ -58,6 +116,9 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={inter.variable}>
+      <head>
+        <StructuredData />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

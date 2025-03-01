@@ -3,6 +3,12 @@ import Carousel from "@/components/Carousel";
 import styles from "./Venue.module.css";
 import placesData from "@/data/nearby-places.json";
 
+export const metadata = {
+  title: "Venue | SYNTACS 2025",
+  description:
+    "SYNTACS 2025 will be held at IIT Ropar. Find directions, accommodation information, and nearby attractions for your visit to the International Conference on Systems, Networks, and Technical Applications in Computer Science.",
+};
+
 export default function Venue() {
   return (
     <div>

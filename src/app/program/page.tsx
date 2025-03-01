@@ -3,6 +3,12 @@ import Head from "next/head";
 import styles from "./Program.module.css";
 import Image from "next/image";
 
+export const metadata = {
+  title: "Program Schedule | SYNTACS 2025",
+  description:
+    "View the complete program schedule for SYNTACS 2025, including keynote speeches by Dr. Debabrata Nayak (PwC India) and Prof. Yogesh Simmhan (IISc Bangalore), poster sessions, and demos.",
+};
+
 export default function Program() {
   return (
     <div>

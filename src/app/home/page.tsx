@@ -10,6 +10,12 @@ import SponsorsCard from "@/components/SponsorsCard";
 
 const GlimpsesImages = 40;
 
+export const metadata = {
+  title: "Home | SYNTACS 2025",
+  description:
+    "Welcome to SYNTACS 2025 - International Conference on Systems, Networks, and Technical Applications in Computer Science at IIT Ropar, featuring keynotes by Dr. Debabrata Nayak and Prof. Yogesh Simmhan.",
+};
+
 export default function Home() {
   return (
     <div>
