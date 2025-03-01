@@ -64,13 +64,11 @@
 .programTable td {
   padding: 1rem;
   border-bottom: 1px solid #e9ecef;
-  text-align: center;
   color: #333; /* Darker text color */
   text-align: left;
 }
 
 .programTable td {
-  vertical-align: top;
   padding: 1rem;
 }
 

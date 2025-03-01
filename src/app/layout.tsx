@@ -24,14 +24,16 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://syntacs2025.site"),
   title: {
-    default: "SYNTACS 2025 | Systems, Networks, Technical Applications in CS",
+    default:
+      "SYNTACS 2025 | Symposium on Novel Technologies and Advances in Computer Science",
     template: "%s | SYNTACS 2025",
   },
   description:
-    "International Conference on Systems, Networks, and Technical Applications in Computer Science at IIT Ropar, 8th March 2025. Featuring keynotes by Dr. Debabrata Nayak (PwC India) and Prof. Yogesh Simmhan (IISc Bangalore).",
+    "Join SYNTACS 2025 - Symposium on Novel Technologies and Advances in Computer Science at IIT Ropar on March 8th, 2025. Featuring keynotes by Dr. Debabrata Nayak (PwC India) and Prof. Yogesh Simmhan (IISc Bangalore).",
   keywords: [
     "SYNTACS",
-    "conference",
+    "symposium",
+    "research scholars day",
     "computer science",
     "IIT Ropar",
     "technology",
@@ -40,9 +42,10 @@ export const metadata: Metadata = {
     "networks",
     "technical applications",
     "research",
-    "symposium",
     "Dr. Debabrata Nayak",
     "Prof. Yogesh Simmhan",
+    "academic networking",
+    "poster sessions",
   ],
   authors: [
     { name: "CSE Department, IIT Ropar", url: "https://cse.iitrpr.ac.in/" },
@@ -61,24 +64,25 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://syntacs2025.site/",
-    title: "SYNTACS 2025 - International Conference on Computer Science",
+    title:
+      "SYNTACS 2025 - Symposium on Novel Technologies and Advances in Computer Science",
     description:
-      "Join us at SYNTACS 2025 - International Conference on Systems, Networks, and Technical Applications in Computer Science at IIT Ropar, 8th March 2025.",
+      "Join us at SYNTACS 2025 - Symposium on Novel Technologies and Advances in Computer Science at IIT Ropar, March 8th, 2025. A Research Scholars Day featuring keynotes, poster sessions, and networking opportunities.",
     siteName: "SYNTACS 2025",
     images: [
       {
         url: "/assets/carousels/carousel-1.png",
         width: 1200,
         height: 630,
-        alt: "SYNTACS 2025 Conference",
+        alt: "SYNTACS 2025 Symposium",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "SYNTACS 2025 - International Conference",
+    title: "SYNTACS 2025 - Research Scholars Symposium",
     description:
-      "Join us at SYNTACS 2025 - International Conference on Systems, Networks, and Technical Applications in Computer Science at IIT Ropar, 8th March 2025.",
+      "Join us at SYNTACS 2025 - Symposium on Novel Technologies and Advances in Computer Science at IIT Ropar, March 8th, 2025. Featuring talks by Dr. Debabrata Nayak and Prof. Yogesh Simmhan.",
     images: ["/assets/carousels/carousel-1.png"],
   },
   icons: {
