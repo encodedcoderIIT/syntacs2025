@@ -1,6 +1,6 @@
 "use client";
 
-import Head from "next/head";
+// import Head from "next/head";
 import Carousel from "../../components/Carousel";
 import Image from "next/image";
 import styles from "./Home.module.css";
@@ -10,23 +10,17 @@ import SponsorsCard from "@/components/SponsorsCard";
 
 const GlimpsesImages = 40;
 
-export const metadata = {
-  title: "Home | SYNTACS 2025",
-  description:
-    "Welcome to SYNTACS 2025 - International Conference on Systems, Networks, and Technical Applications in Computer Science at IIT Ropar, featuring keynotes by Dr. Debabrata Nayak and Prof. Yogesh Simmhan.",
-};
-
 export default function Home() {
   return (
     <div>
-      <Head>
+      {/* <Head>
         <title>SYNTACS 2025 - Home</title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         <link rel="icon" href="/image.jpg" type="image/jpeg" />
-      </Head>
+      </Head> */}
       <Carousel />
       <div className={styles.container}>
         <div className={styles.cardBody}>
