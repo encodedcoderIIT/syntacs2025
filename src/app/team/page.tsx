@@ -35,14 +35,19 @@ export default function TeamPage() {
 
   const studentCoordinators = [
     {
+      name: "Suresh",
+      department: "Ph.D. Scholar, CSE",
+      image: "/assets/team/suresh.jpg",
+    },
+    {
+      name: "Raman Kymar",
+      department: "Ph.D. Scholar, CSE",
+      image: "/assets/team/raman.png",
+    },
+    {
       name: "Shruti Sharma",
       department: "Ph.D. Scholar, CSE",
       image: "/assets/team/shruti.jpg",
-    },
-    {
-      name: "Akanksha",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/akanksha.jpg",
     },
     {
       name: "Sahil",
@@ -56,27 +61,27 @@ export default function TeamPage() {
     },
     {
       name: "Kavitha",
-      department: "IIT Ropar",
+      department: "Ph.D. Scholar, CSE",
       image: "/assets/team/kavitha.jpg",
     },
     {
       name: "Mudit Sharma",
-      department: "IIT Ropar",
+      department: "JRF, CSE",
       image: "/assets/team/mudit.jpg",
     },
     {
-      name: "Raman Kumar",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/raman.jpg",
+      name: "Soumya Sarkar",
+      department: "JRF, CSE",
+      image: "/assets/team/soumya.jpg",
     },
     {
       name: "Rejoy",
-      department: "IIT Ropar",
+      department: "M.Tech, CSE",
       image: "/assets/team/rejoy.jpg",
     },
     {
       name: "Vivek Kumar",
-      department: "IIT Ropar",
+      department: "Ph.D. Scholar, CSE",
       image: "/assets/team/vivek.jpg",
     },
     {
@@ -85,14 +90,9 @@ export default function TeamPage() {
       image: "/assets/team/yogesh.jpg",
     },
     {
-      name: "Shreya Bansal",
+      name: "Akanksha",
       department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/shreya.jpg",
-    },
-    {
-      name: "Atul",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/atul.jpg",
+      image: "/assets/team/akanksha.jpg",
     },
     {
       name: "Shivam Gupta",
@@ -100,24 +100,40 @@ export default function TeamPage() {
       image: "/assets/team/shivam.jpg",
     },
     {
+      name: "Shreya Bansal",
+      department: "Ph.D. Scholar, CSE",
+      image: "/assets/team/shreya.jpg",
+    },
+    {
       name: "Shradha Sharma",
       department: "Ph.D. Scholar, CSE",
       image: "/assets/team/shradha.jpg",
+    },
+    {
+      name: "Atul",
+      department: "Ph.D. Scholar, CSE",
+      image: "/assets/team/atul.jpg",
     },
     {
       name: "Pravesh",
       department: "Ph.D. Scholar, CSE",
       image: "/assets/team/pravesh.jpg",
     },
-    {
-      name: "Soumya Sarkar",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/soumya.jpg",
-    },
+
     {
       name: "Devnath",
-      department: "IIT Ropar",
+      department: "Ph.D. Scholar, CSE",
       image: "/assets/team/devnath.jpg",
+    },
+    {
+      name: "Greeshma PG",
+      department: "Ph.D. Scholar, CSE",
+      image: "/assets/team/greeshma.jpg",
+    },
+    {
+      name: "Harshith",
+      department: "Ph.D. Scholar, CSE",
+      image: "/assets/team/harshith.jpg",
     },
     {
       name: "Riya Goel",
@@ -130,19 +146,14 @@ export default function TeamPage() {
       image: "/assets/team/herasees.jpg",
     },
     {
-      name: "Greeshma PG",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/greeshma.jpg",
-    },
-    {
       name: "Rupinder Kaur",
       department: "Ph.D. Scholar, CSE",
       image: "/assets/team/rupinder.jpg",
     },
     {
-      name: "Harshith",
+      name: "Maninder Kaur",
       department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/harshith.jpg",
+      image: "/assets/team/maninder.jpg",
     },
   ];
 
