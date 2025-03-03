@@ -42,7 +42,7 @@ export default function Venue() {
             </p>
           </div>
 
-          <div className={styles.directionCard}>
+          <div id="how-to-reach" className={styles.directionCard}>
             <h2 className={styles.subTitle}>How To Reach 🛣️</h2>
             <hr className={styles.divider} />
             <div className={styles.mapSection}>
@@ -87,7 +87,7 @@ export default function Venue() {
             </div>
           </div>
 
-          <div className={styles.placesCard}>
+          <div id="nearby-places" className={styles.placesCard}>
             <h2 className={styles.subTitle}>Nearby Places to Visit 🧳</h2>
             <hr className={styles.divider} />
             <div className={styles.placesSection}>
