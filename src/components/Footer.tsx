@@ -2,7 +2,7 @@ import styles from "./Footer.module.css";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faFacebook,
+  faYoutube,
   faTwitter,
   faInstagram,
   faLinkedin,
@@ -66,34 +66,36 @@ export default function Footer() {
                 </Link>
               </li>
             </ul>
+            <p>S. Ramanujan Block</p>
+            <p>Department of Computer Science and Engineering,</p>
             <p>Indian Institute of Technology Ropar,</p>
             <p>Rupnagar, Punjab - 140001, India</p>
             <div className={styles.socialLinks}>
               <h4>Follow IIT Ropar:</h4>
               <div className={styles.socialIcons}>
                 <Link
-                  href="https://www.facebook.com/iitrpr"
-                  aria-label="Facebook"
+                  href="https://www.youtube.com/@cseiitrpr"
+                  aria-label="YouTube"
                   target="_blank"
                 >
-                  <FontAwesomeIcon icon={faFacebook} />
+                  <FontAwesomeIcon icon={faYoutube} />
                 </Link>
                 <Link
-                  href="https://x.com/iitrpr"
-                  aria-label="Twitter"
+                  href="https://x.com/cseiitrpr"
+                  aria-label="X (Twitter)"
                   target="_blank"
                 >
                   <FontAwesomeIcon icon={faTwitter} />
                 </Link>
                 <Link
-                  href="https://www.instagram.com/iit_ropar_official/"
+                  href="https://www.instagram.com/cseiitropar"
                   aria-label="Instagram"
                   target="_blank"
                 >
                   <FontAwesomeIcon icon={faInstagram} />
                 </Link>
                 <Link
-                  href="https://www.linkedin.com/school/iitropar"
+                  href="https://www.linkedin.com/in/cseiitrpr/"
                   aria-label="LinkedIn"
                   target="_blank"
                 >
