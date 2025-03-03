@@ -141,7 +141,7 @@ export default function Footer() {
             target="_blank"
             className={styles.designer}
           >
-            encodedcoder
+            encodedCoder
           </Link>
         </p>
       </div>
