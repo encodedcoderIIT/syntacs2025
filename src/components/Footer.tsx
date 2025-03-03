@@ -21,13 +21,18 @@ export default function Footer() {
               </Link>
             </li>
             <li>
+              <Link href="https://cse.iitrpr.ac.in/" target="_blank">
+                CSE IIT Ropar
+              </Link>
+            </li>
+            {/* <li>
               <Link
                 href="https://docs.google.com/document/d/1oFeyY-JxaXzPH0hWT1HTMEA_nOtyz1g1w2XYEwTC9_Y/edit?pli=1&amp;tab=t.0"
                 target="_blank"
               >
                 Bus Timing
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link href="/team" target="_blank">
                 SYNTACS 2025 Team
@@ -59,19 +64,12 @@ export default function Footer() {
         <div className={styles.footerSection}>
           <h3 className={styles.footerHeading}>CONTACT DETAILS</h3>
           <address className={styles.contactInfo}>
-            <ul className={styles.footerList}>
-              <li>
-                <Link href="https://cse.iitrpr.ac.in/" target="_blank">
-                  CSE IIT Ropar
-                </Link>
-              </li>
-            </ul>
             <p>S. Ramanujan Block</p>
             <p>Department of Computer Science and Engineering,</p>
             <p>Indian Institute of Technology Ropar,</p>
             <p>Rupnagar, Punjab - 140001, India</p>
             <div className={styles.socialLinks}>
-              <h4>Follow IIT Ropar:</h4>
+              <h4>Follow CSE IIT Ropar:</h4>
               <div className={styles.socialIcons}>
                 <Link
                   href="https://www.youtube.com/@cseiitrpr"
