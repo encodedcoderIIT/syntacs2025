@@ -143,6 +143,14 @@ export default function Footer() {
           >
             encodedCoder
           </Link>
+          |
+          <Link
+            href="https://www.linkedin.com/in/mr-rmnkr/"
+            target="_blank"
+            className={styles.designer}
+          >
+            raman-kumar
+          </Link>
         </p>
       </div>
     </footer>
