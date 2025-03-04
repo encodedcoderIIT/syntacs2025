@@ -39,9 +39,7 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="/home#24-glimples" target="_blank">
-                SYNTACS 2024 Glimplses
-              </Link>
+              <Link href="/home#24-glimples">SYNTACS 2024 Glimplses</Link>
             </li>
             <li>
               <Link href="/program" className={styles.navLink}>
