@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem 1rem;
   margin-top: 80px;
+  width: 100%;
 }
 
 .heading {
@@ -23,6 +24,7 @@
 
 .section {
   margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .subheading {
@@ -215,6 +217,7 @@
   display: flex;
   justify-content: center;
   margin-top: 3rem;
+  margin: 3rem 0 1rem;
 }
 
 .button {
@@ -236,6 +239,188 @@
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
+.cardBody {
+  background-color: #fff;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.title {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #333;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.subTitle {
+  font-size: 2rem;
+  text-align: center;
+  color: #333;
+  margin: 1.5rem 0 0.5rem;
+  font-weight: 600;
+}
+
+.divider {
+  border: none;
+  height: 2px;
+  background: #eee;
+  margin: 1rem 0;
+}
+
+.text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 2rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* Faculty styles - using keynoteContainer from home page */
+.keynoteContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.keynoteCard {
+  background: linear-gradient(
+    135deg,
+    rgba(158, 249, 228, 0.8),
+    rgba(98, 80, 162, 0.8)
+  );
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  flex: 0 0 48%;
+  max-width: 48%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.keynoteCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.cardImage {
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 4px solid white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cardImage:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.cardContent {
+  text-align: center;
+  color: black;
+}
+
+/* Student styles - using glimpses from home page */
+.glimpsesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin: 2rem 0;
+  border-radius: 12px;
+}
+
+.glimpseCard {
+  width: 180px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.glimpseCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.glimpseImage {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  margin-bottom: 0.5rem;
+  border: 3px solid white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.glimpseCard:hover .glimpseImage {
+  transform: scale(1.05);
+}
+
+.glimpseText {
+  padding: 0.5rem;
+  margin: 0;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #2d3436;
+  width: 100%;
+}
+
+.glimpseText p {
+  margin: 0.4rem 0;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.downloadButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  margin: 10px 0;
+  background: linear-gradient(
+    135deg,
+    rgba(158, 249, 228, 0.9),
+    rgba(98, 80, 162, 0.9)
+  );
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.downloadButton:hover {
+  background: linear-gradient(
+    135deg,
+    rgba(138, 229, 208, 0.9),
+    rgba(78, 60, 142, 0.9)
+  );
+  transform: translateY(-1px);
+}
+
 @media (max-width: 768px) {
   .heading {
     font-size: 2rem;
@@ -252,6 +437,34 @@
   .volunteers {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
+
+  .title {
+    font-size: 1.8rem;
+  }
+  .subTitle {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .text {
+    font-size: 0.95rem;
+  }
+  .keynoteCard {
+    flex: 0 0 98%;
+    max-width: 98%;
+    margin-bottom: 1rem;
+  }
+  .glimpseCard {
+    width: 150px;
+  }
+  .glimpseImage {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .glimpseText {
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -262,5 +475,18 @@
   .studentPhotoContainer {
     width: 100px;
     height: 100px;
+  }
+
+  .glimpseCard {
+    width: 130px;
+  }
+  .glimpseImage {
+    width: 90px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .glimpseText {
+    font-size: 0.8rem;
   }
 }
