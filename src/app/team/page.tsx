@@ -141,7 +141,7 @@ export default function TeamPage() {
       image: "/assets/team/riya.jpg",
     },
     {
-      name: "Herasees Kaur",
+      name: "Harasees Kaur",
       department: "Ph.D. Scholar, CSE",
       image: "/assets/team/herasees.jpg",
     },
