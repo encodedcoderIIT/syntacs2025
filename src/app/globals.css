@@ -27,6 +27,10 @@ a:hover {
   }
 }
 
+html {
+  scroll-padding-top: 100px; /* This creates the offset for all hash links */
+}
+
 body {
   color: var(--foreground);
   background: var(--background);

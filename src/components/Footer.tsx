@@ -1,3 +1,4 @@
+"use client";
 import styles from "./Footer.module.css";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -44,11 +45,11 @@ export default function Footer() {
                 Program Schedule
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="/venue" className={styles.navLink}>
                 Venue
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link href="/venue#how-to-reach" className={styles.navLink}>
                 How to Reach
