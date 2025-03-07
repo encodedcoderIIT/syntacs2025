@@ -144,7 +144,7 @@ export default function Footer() {
             target="_blank"
             className={styles.designer}
           >
-            encodedCoder (suresh)
+            encodedCoder(suresh)
           </Link>
           {" | "}
           <Link
