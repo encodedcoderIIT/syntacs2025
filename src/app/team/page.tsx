@@ -92,7 +92,7 @@ export default function TeamPage() {
                     {student.linkedin && (
                       <a
                         href={student.linkedin}
-                        target="_blank"
+                        target={student.linkedin === "#" ? "_self" : "_blank"}
                         rel="noreferrer"
                         className={styles.socialLink}
                         aria-label={`LinkedIn profile of ${student.name}`}
