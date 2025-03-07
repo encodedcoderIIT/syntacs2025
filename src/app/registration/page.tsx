@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Carousel from "@/components/Carousel";
 import Image from "next/image";
 import styles from "./Registration.module.css";
@@ -28,14 +27,6 @@ export default function Registration() {
 
   return (
     <div>
-      <Head>
-        <title>SYNTACS 2025 - Registration</title>
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
-        <link rel="icon" href="/image.jpg" type="image/jpeg" />
-      </Head>
       <Carousel />
       <div className={styles.container}>
         <div className={styles.cardBody}>

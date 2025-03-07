@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Carousel from "@/components/Carousel";
 import Link from "next/link";
 import styles from "./Team.module.css";
 import { useState } from "react";
@@ -17,6 +18,7 @@ export default function TeamPage() {
 
   return (
     <div>
+      <Carousel />
       <div className={styles.container}>
         <div className={styles.cardBody}>
           <h1 className={styles.title}>SYNTACS &apos;25 Team 👥</h1>

@@ -34,9 +34,7 @@ export default function Footer() {
               </Link>
             </li> */}
             <li>
-              <Link href="/team" target="_blank">
-                SYNTACS 2025 Team
-              </Link>
+              <Link href="/team">SYNTACS 2025 Team</Link>
             </li>
             <li>
               <Link href="/home#24-glimples">SYNTACS 2024 Glimplses</Link>
