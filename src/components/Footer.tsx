@@ -35,10 +35,10 @@ export default function Footer() {
               </Link>
             </li> */}
             <li>
-              <Link href="/team">SYNTACS 2025 Team</Link>
+              <Link href="/team">SYNTACS &apos;25 Team</Link>
             </li>
             <li>
-              <Link href="/home#24-glimples">SYNTACS 2024 Glimplses</Link>
+              <Link href="/home#24-glimples">SYNTACS &apos;24 Glimpses</Link>
             </li>
             <li>
               <Link href="/program" className={styles.navLink}>
