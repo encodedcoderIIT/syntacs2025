@@ -89,7 +89,7 @@
 }
 
 .navLink {
-  color: #333;
+  color: #000000;
   text-decoration: none;
   margin: 0 1rem;
   transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out;

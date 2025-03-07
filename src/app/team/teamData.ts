@@ -11,6 +11,7 @@ export interface StudentCoordinator {
   name: string;
   department: string;
   image: string;
+  linkedin?: string; // Optional LinkedIn URL
 }
 
 export const facultyCoordinators: FacultyMember[] = [
@@ -124,6 +125,7 @@ export const studentCoordinators: StudentCoordinator[] = [
     name: "Akanksha Chuchra",
     department: "Ph.D. Scholar, CSE",
     image: "/assets/team/akanksha.png",
+    linkedin: "https://in.linkedin.com/in/akankshachuchra",
   },
   {
     name: "Shreya Bansal",
@@ -194,6 +196,7 @@ export const studentCoordinators: StudentCoordinator[] = [
     name: "Parul Kukrety",
     department: "Ph.D. Scholar, CSE",
     image: "/assets/team/parul.png",
+    linkedin: "https://in.linkedin.com/in/parul-kukrety-209287242",
   },
   {
     name: "Irshad Ali",
@@ -204,6 +207,7 @@ export const studentCoordinators: StudentCoordinator[] = [
     name: "Lownish Rai Sookha",
     department: "Ph.D. Scholar, CSE",
     image: "/assets/team/lownish.png",
+    linkedin: "https://in.linkedin.com/in/lownish-rai-sookha-220294149",
   },
   {
     name: "Anjani",
