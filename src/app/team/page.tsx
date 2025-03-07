@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./Team.module.css";
 import { useState } from "react";
+import { facultyCoordinators, studentCoordinators } from "./teamData";
 
 export default function TeamPage() {
   // State to track image loading errors
@@ -13,193 +14,6 @@ export default function TeamPage() {
   const handleImageError = (id: string) => {
     setImgError((prev) => ({ ...prev, [id]: true }));
   };
-
-  const facultyCoordinators = [
-    {
-      name: "Dr. Neeraj Goel",
-      position: "Faculty Coordinator",
-      department: "CSE, IIT Ropar",
-      image: "/assets/team/neeraj.png",
-      email: "neeraj@iitrpr.ac.in",
-      website: "https://sites.google.com/view/neerajgoel",
-    },
-    {
-      name: "Dr. Sweta Jain",
-      position: "Faculty Coordinator",
-      department: "CSE, IIT Ropar",
-      image: "/assets/team/sweta.png",
-      email: "sweta@iitrpr.ac.in",
-      website: "https://sites.google.com/site/shwetajainiisc/home",
-    },
-  ];
-
-  const studentCoordinators = [
-    {
-      name: "Suresh",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/suresh.png",
-    },
-    {
-      name: "Raman Kumar",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/raman.png",
-    },
-    {
-      name: "Shruti Sharma",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/shruti.png",
-    },
-    {
-      name: "Sahil",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/sahil.png",
-    },
-    {
-      name: "Sahil Pathak",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/sahil_pathak.png",
-    },
-    {
-      name: "Kavitha",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/kavitha.png",
-    },
-    {
-      name: "Mudit Sharma",
-      department: "JRF, CSE",
-      image: "/assets/team/mudit.png",
-    },
-    {
-      name: "Soumya Sarkar",
-      department: "JRF, CSE",
-      image: "/assets/team/soumya.png",
-    },
-    {
-      name: "Rejoy",
-      department: "M.Tech, CSE",
-      image: "/assets/team/rejoy.png",
-    },
-    {
-      name: "Vivek Kumar",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/vivek.png",
-    },
-    {
-      name: "Yogesh Kumar",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/yogesh.png",
-    },
-    {
-      name: "Akanksha",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/akanksha.png",
-    },
-    {
-      name: "Shivam Gupta",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/shivam.png",
-    },
-    {
-      name: "Shreya Bansal",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/shreya.png",
-    },
-    {
-      name: "Shradha Sharma",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/shradha.png",
-    },
-    {
-      name: "Atul",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/atul.png",
-    },
-    {
-      name: "Pravesh",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/pravesh.png",
-    },
-    {
-      name: "Devnath",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/devnath.png",
-    },
-    {
-      name: "Greeshma PG",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/greeshma.png",
-    },
-    {
-      name: "Harshith",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/harshith.png",
-    },
-    {
-      name: "Riya Goel",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/riya.png",
-    },
-    {
-      name: "Harasees Kaur",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/harasees.png",
-    },
-    {
-      name: "Rupinder Kaur",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/rupinder.png",
-    },
-    {
-      name: "Maninder Kaur",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/maninder.png",
-    },
-    {
-      name: "Napendra",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/napendra.png",
-    },
-    {
-      name: "Usma",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/usma.png",
-    },
-    {
-      name: "Malya",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/malya.png",
-    },
-    {
-      name: "Parul",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/parul.png",
-    },
-    {
-      name: "Irshad",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/irshad.png",
-    },
-    {
-      name: "Lownish",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/lownish.png",
-    },
-    {
-      name: "Rahul",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/rahul.png",
-    },
-    {
-      name: "Anjani",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/anjani.png",
-    },
-    {
-      name: "Pavan",
-      department: "Ph.D. Scholar, CSE",
-      image: "/assets/team/pavan.png",
-    },
-  ];
 
   return (
     <div>
@@ -236,14 +50,7 @@ export default function TeamPage() {
                     <strong>{faculty.name}</strong>
                     <p>{faculty.position}</p>
                     <p>{faculty.department}</p>
-                    <a
-                      href={`mailto:${faculty.email}`}
-                      className="hrefLinkBlue"
-                    >
-                      {faculty.email}
-                    </a>{" "}
-                    📧
-                    {faculty.website && (
+                    {faculty.website && faculty.website !== "#" && (
                       <div>
                         <a
                           href={faculty.website}
