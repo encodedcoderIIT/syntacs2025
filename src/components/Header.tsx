@@ -104,6 +104,19 @@ export default function Header() {
                 Venue 🗺️
               </Link>
             </li>
+            {/* <li className={styles.dropdown}>
+              <button className={styles.dropdownToggle}>
+                Gallery 📸 <span className={styles.dropdownArrow}>▼</span>
+              </button>
+              <div className={styles.dropdownMenu}>
+                <Link href="/gallery/2024" className={styles.dropdownItem}>
+                  SYNTACS 2024
+                </Link>
+                <Link href="/gallery/2025" className={styles.dropdownItem}>
+                  SYNTACS 2025
+                </Link>
+              </div>
+            </li> */}
           </ul>
         </div>
       </nav>
